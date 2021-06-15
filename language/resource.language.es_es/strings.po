@@ -2401,8 +2401,8 @@ msgstr "Episodios"
 
 #: /1080i/Custom_1125_EnableNetflixMenus.xml
 msgctxt "#31501"
-msgid " - Disable menu background color"
-msgstr "- Deshabilitar el color de fondo del menú"
+msgid "Disable menu background color"
+msgstr "Deshabilitar el color de fondo del menú"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31502"
@@ -2821,8 +2821,8 @@ msgstr "Configurar APIs TMDB Helper"
 
 #: /1080i/Custom_1126_MovieHub_config.xml
 msgctxt "#31585"
-msgid "[CAPITALIZE]Movie Hub Configuration[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Configuración de Centros de Películas[/CAPITALIZE]"
+msgid "Movie Hub Configuration"
+msgstr "Configuración de Centros de Películas"
 
 #: /1080i/Custom_1126_MovieHub_config.xml
 msgctxt "#31586"
@@ -2836,8 +2836,8 @@ msgstr "Elementos del Centro de Aura de Películas"
 
 #: /1080i/Custom_1126_MovieHub_config.xml
 msgctxt "#31588"
-msgid " - Enable Compact Widget spacing"
-msgstr " - Habilitar el Espaciado del Widget Compacto"
+msgid "Enable Compact Widget spacing"
+msgstr "Habilitar el Espaciado del Widget Compacto"
 
 #: /1080i/Custom_1126_MovieHub_config.xml
 msgctxt "#31589"
@@ -2851,8 +2851,8 @@ msgstr "Elementos del Centro de Género de Películas"
 
 #: /1080i/Custom_1127_TVHub_config.xml
 msgctxt "#31591"
-msgid "[CAPITALIZE]TV Hub Configuration[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Configuración Centro de Series[/CAPITALIZE]"
+msgid "TV Hub Configuration"
+msgstr "Configuración Centro de Series"
 
 #: /1080i/Custom_1127_TVHub_config.xml
 msgctxt "#31592"
@@ -2881,8 +2881,8 @@ msgstr "Elementos del Centro de Redes de Series"
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31597"
-msgid "[CAPITALIZE]Home Spotlight Config[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Configuración de Destacados de Inicio[/CAPITALIZE]"
+msgid "Home Spotlight Config"
+msgstr "Configuración de Destacados de Inicio"
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31598"
@@ -2901,8 +2901,8 @@ msgstr "Contenido de Películas"
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31601"
-msgid " - Configure Custom Movie Lists"
-msgstr " - Configurar Listas de Películas Personalizadas"
+msgid "Configure Custom Movie Lists"
+msgstr "Configurar Listas de Películas Personalizadas"
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31602"
@@ -2916,8 +2916,8 @@ msgstr "Contenido de Series"
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31604"
-msgid " - Configure Custom TV Lists"
-msgstr " - Configurar Listas de Series Personalizadas"
+msgid "Configure Custom TV Lists"
+msgstr "Configurar Listas de Series Personalizadas"
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31605"
@@ -2931,8 +2931,8 @@ msgstr "Configuración de Destacado de Live TV"
 
 #: /1080i/Custom_1130_ShowInfo.xml
 msgctxt "#31607"
-msgid "[CAPITALIZE]Show Info Media types[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Mostrar información de los Tipos de Medios[/CAPITALIZE]"
+msgid "Show Info Media types"
+msgstr "Mostrar información de los Tipos de Medios"
 
 #: /1080i/Custom_1130_ShowInfo.xml
 msgctxt "#31608"
@@ -2951,8 +2951,8 @@ msgstr "Episodios"
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
 msgctxt "#31611"
-msgid "[CAPITALIZE]Spotlight Style[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Estilo de Destacados[/CAPITALIZE]"
+msgid "Spotlight Style"
+msgstr "Estilo de Destacados"
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
 msgctxt "#31612"
@@ -2961,8 +2961,8 @@ msgstr "Habilitar Destacado a Pantalla Completa"
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
 msgctxt "#31613"
-msgid " - Disable Spotlight Trailer auto-play"
-msgstr " - Desactivar la Reproducción Automática del Trailer en Destacados"
+msgid "Disable Spotlight Trailer auto-play"
+msgstr "Desactivar la Reproducción Automática del Trailer en Destacados"
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
 msgctxt "#31614"
@@ -2986,8 +2986,8 @@ msgstr "Recargar"
 
 #: /1080i/Custom_1140_EnableSubmenuSize.xml
 msgctxt "#31618"
-msgid "[CAPITALIZE]Choose Category Widget Size[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Selección de Tamaño del Widget de Categoría[/CAPITALIZE]"
+msgid "Choose Category Widget Size"
+msgstr "Selección de Tamaño del Widget de Categoría"
 
 #: /1080i/Custom_1140_EnableSubmenuSize.xml
 msgctxt "#31619"
@@ -3006,8 +3006,8 @@ msgstr "Widget Grande de Categoría"
 
 #: /1080i/Custom_1157_VideoInfoButtons.xml
 msgctxt "#31622"
-msgid "[CAPITALIZE]VideoInfo Buttons[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Botones de VideoInfo[/CAPITALIZE]"
+msgid "VideoInfo Buttons"
+msgstr "Botones de VideoInfo"
 
 #: /1080i/Custom_1157_VideoInfoButtons.xml-DialogVideoInfo-Includes.xml
 msgctxt "#31623"
@@ -3051,8 +3051,8 @@ msgstr "Reproducción Rápida"
 
 #: /1080i/Custom_1158_VideoInfo.xml
 msgctxt "#31631"
-msgid "[CAPITALIZE]Netflix VideoInfo Settings[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Configuración de Netflix VideoInfo[/CAPITALIZE]"
+msgid "Netflix VideoInfo Settings"
+msgstr "Configuración de Netflix VideoInfo"
 
 #: /1080i/Custom_1158_VideoInfo.xml
 msgctxt "#31632"
@@ -3076,8 +3076,8 @@ msgstr "Usar Argumento Grande"
 
 #: /1080i/Includes_MediaHub.xml
 msgctxt "#31636"
-msgid "[B]Click to set Widget Content[/B]"
-msgstr "[B]Haga Click para Configurar el Contenido del Widget[/B]"
+msgid "Click to set Widget Content"
+msgstr "Haga Click para Configurar el Contenido del Widget"
 
 #: /1080i/Includes_MediaHub.xml
 msgctxt "#31637"
@@ -3086,8 +3086,8 @@ msgstr "Descubrir Películas"
 
 #: /1080i/Custom_1160_Spotlight_TV_List.xml
 msgctxt "#31638"
-msgid "[CAPITALIZE]Spotlight TV Lists[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Listas de Destacados de Series[/CAPITALIZE]"
+msgid "Spotlight TV Lists"
+msgstr "Listas de Destacados de Series"
 
 #: /1080i/Custom_1160_Spotlight_TV_List.xml
 msgctxt "#31639"
@@ -3108,11 +3108,6 @@ msgstr "Lista 3 de Series"
 msgctxt "#31642"
 msgid "TV List 4"
 msgstr "Lista 4 de Series"
-
-#: /1080i/Custom_1161_Spotlight_Movie_List.xml
-msgctxt "#31642"
-msgid "[CAPITALIZE]Spotlight Movie Lists[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Listas de Destacados de Películas[/CAPITALIZE]"
 
 #: /1080i/Custom_1161_Spotlight_Movie_List.xml
 msgctxt "#31643"
@@ -3136,8 +3131,8 @@ msgstr "Lista 4 de Películas"
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31647"
-msgid "[CAPITALIZE]Search Hub Configuration[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Cofiguración de Centro de Búsqueda[/CAPITALIZE]"
+msgid "Search Hub Configuration"
+msgstr "Cofiguración de Centro de Búsqueda"
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31648"
@@ -3146,18 +3141,18 @@ msgstr "Configurar Listas de Búsqueda"
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31649"
-msgid " - Use default keyboard"
-msgstr " - Usar Teclado Predeterminado"
+msgid "Use default keyboard"
+msgstr "Usar Teclado Predeterminado"
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31650"
-msgid " - Enable Search History (requires tmdb lists)"
-msgstr " - Habilitar Historial de Búsqueda (Requiere Listas TMDB)"
+msgid "Enable Search History (requires tmdb lists)"
+msgstr "Habilitar Historial de Búsqueda (Requiere Listas TMDB)"
 
 #: /1080i/Custom_1164_MyLists.xml
 msgctxt "#31651"
-msgid "[CAPITALIZE]My Lists Configuration[/CAPITALIZE]"
-msgstr "[CAPITALIZE]Configuración de Mis Listas[/CAPITALIZE]"
+msgid "My Lists Configuration"
+msgstr "Configuración de Mis Listas"
 
 #: /1080i/Custom_1164_MyLists.xml
 msgctxt "#31652"
@@ -3211,8 +3206,8 @@ msgstr "Utilizar el Estilo AuraMod para Menú Hub"
 
 #: /1080i/Custom_Hub_MovieAura.xml
 msgctxt "#31662"
-msgid "[B]Movie AuraHub[/B]"
-msgstr "[B]Película AuraHub[/B]"
+msgid "Movie AuraHub"
+msgstr "Película AuraHub"
 
 #: /1080i/Custom_Hub_MovieAura.xml
 msgctxt "#31663"
@@ -3231,8 +3226,8 @@ msgstr "Géneros"
 
 #: /1080i/Custom_Hub_MoviesGenres.xml
 msgctxt "#31666"
-msgid "[B]TV AuraHub[/B]"
-msgstr "[B]Series AuraHub[/B]"
+msgid "TV AuraHub"
+msgstr "Series AuraHub"
 
 #: /1080i/Custom_Hub_TVAura.xml
 msgctxt "#31667"
@@ -3276,23 +3271,23 @@ msgstr "Redes"
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31675"
-msgid "[CAPITALIZE][B]Run Wizard[/B][/CAPITALIZE]"
-msgstr "[CAPITALIZE][B]Ejecutar Wizard[/B][/CAPITALIZE]"
+msgid "Run Wizard"
+msgstr "Ejecutar Wizard"
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31676"
-msgid "[CAPITALIZE][B]Manual Setup[/B][/CAPITALIZE]"
-msgstr "[CAPITALIZE][B]Configuración Manual[/B][/CAPITALIZE]"
+msgid "Manual Setup"
+msgstr "Configuración Manual"
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31677"
-msgid "[CAPITALIZE][B]Configure Hubs & Spotlights[/B][/CAPITALIZE]"
-msgstr "[CAPITALIZE][B]Configurar Centros & Destacados[/B][/CAPITALIZE]"
+msgid "Configure Hubs & Spotlights"
+msgstr "Configurar Centros & Destacados"
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31678"
-msgid "[CAPITALIZE][B]Finish Setup[/B][/CAPITALIZE]"
-msgstr "[CAPITALIZE][B]Finalizar Configuración[/B][/CAPITALIZE]"
+msgid "Finish Setup"
+msgstr "Finalizar Configuración"
 
 #: /1080i/Custom_Youtube.xml
 msgctxt "#31679"
@@ -3411,23 +3406,23 @@ msgstr "Por Género"
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31701"
-msgid "[B]Box Office[/B]"
-msgstr "[B]Taquilla[/B]"
+msgid "Box Office"
+msgstr "Taquilla"
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31702"
-msgid "[B]Budget[/B]"
-msgstr "[B]Presupuesto[/B]"
+msgid "Budget"
+msgstr "Presupuesto"
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31703"
-msgid "[B]Awards[/B]"
-msgstr "[B]Premios[/B]"
+msgid "Awards"
+msgstr "Premios"
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31704"
-msgid "[B]Critics Consensus[/B]"
-msgstr "[B]Consenso de las Críticas[/B]"
+msgid "Critics Consensus"
+msgstr "Consenso de las Críticas"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31705"
@@ -3471,33 +3466,33 @@ msgstr "Reproducir"
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31713"
-msgid "[LIGHT]liked it[/LIGHT]"
-msgstr "[LIGHT]le gustó[/LIGHT]"
+msgid "liked it"
+msgstr "le gustó"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31714"
-msgid "[CAPITALIZE][B]Play[/B][/CAPITALIZE]"
-msgstr "[CAPITALIZE][B]Reproducir[/B][/CAPITALIZE]"
+msgid "Play"
+msgstr "Reproducir"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31715"
-msgid "[B]More Info[/B]"
-msgstr "[B]Más Información[/B]"
+msgid "More Info"
+msgstr "Más Información"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31716"
-msgid "[B]My TV Calendar[/B]"
-msgstr "[B]Mi Guía de Programación[/B]"
+msgid "My TV Calendar"
+msgstr "Mi Guía de Programación"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31717"
-msgid "[B]Continue Watching[/B]"
-msgstr "[B]Continuar viendo[/B]"
+msgid "Continue Watching"
+msgstr "Continuar viendo"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31718"
-msgid "[B]Channel:[/B]"
-msgstr "[B]Canal:[/B]"
+msgid "Channel:"
+msgstr "Canal:"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31719"
@@ -3798,3 +3793,8 @@ msgstr "Activar la Superposición de Escaparate del Widget"
 msgctxt "#31778"
 msgid " - Enable Showcase auto-hide"
 msgstr " - Activar la Auto-Ocultación del Escaparate"
+
+#: /1080i/Custom_1161_Spotlight_Movie_List.xml
+msgctxt "#31779"
+msgid "Spotlight Movie Lists"
+msgstr ""

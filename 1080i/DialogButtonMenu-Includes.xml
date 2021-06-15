@@ -82,13 +82,13 @@
 							<thumb>home/tv.png</thumb>
 						</item>
 						<item>
-							<label>$LOCALIZE[31680]</label>
+							<label>$LOCALIZE[31680]</label> <!-- Programs -->
 							<onclick>Dialog.Close(all,true)</onclick>
 							<onclick>ActivateWindow(programs)</onclick>
 							<thumb>home/music.png</thumb>
 						</item>
 						<item>
-							<label>$LOCALIZE[31681]</label>
+							<label>$LOCALIZE[31681]</label> <!-- Favourites -->
 							<onclick>Dialog.Close(all,true)</onclick>
 							<onclick>ActivateWindow(favourites)</onclick>
 						</item>
@@ -226,19 +226,19 @@
 					</focusedlayout>
 					<content>
                                                 <item>
-                                                        <label>$LOCALIZE[31682]</label>
+                                                        <label>$LOCALIZE[31682]</label> <!-- Main Menu Config -->
                                                         <onclick>Dialog.Close(all,true)</onclick>
                                                         <onclick>RunScript(script.skinshortcuts,type=manage&amp;group=mainmenu)</onclick>
                                                         <thumb>dialogs/charms/charm_shutdown.png</thumb>
                                                 </item>
                                                 <item>
-                                                        <label>$LOCALIZE[31683]</label>
+                                                        <label>$LOCALIZE[31683]</label> <!-- TV Hubs Config -->
                                                         <onclick>Dialog.Close(all,true)</onclick>
 							<onclick>ActivateWindow(1127)</onclick>
                                                         <thumb>dialogs/charms/charm_shutdown.png</thumb>
                                                 </item>
                                                 <item>
-                                                        <label>$LOCALIZE[31684]</label>
+                                                        <label>$LOCALIZE[31684]</label> <!-- Movie Hubs Config -->
                                                         <onclick>Dialog.Close(all,true)</onclick>
 							<onclick>ActivateWindow(1126)</onclick>
                                                         <thumb>dialogs/charms/charm_shutdown.png</thumb>
@@ -321,17 +321,17 @@
 					</focusedlayout>
 					<content>
 						<item id="3">
-							<label>$LOCALIZE[33060]</label>
+							<label>$LOCALIZE[33060]</label> 
 							<thumb>dialogs/charms/charm_shutdown.png</thumb>
 						</item>
 						<item id="1">
-							<label>$LOCALIZE[31685]</label>
+							<label>$LOCALIZE[31685]</label> <!-- Home -->
 							<onclick>Dialog.Close(all,true)</onclick>
 							<onclick>ActivateWindow(Home)</onclick>
 							<thumb>dialogs/charms/charm_home.png</thumb>
 						</item>
                                                 <item id="4">
-                                                        <label>$LOCALIZE[31686]</label>
+                                                        <label>$LOCALIZE[31686]</label> <!-- Settings -->
                                                         <onclick>Dialog.Close(all,true)</onclick>
                                                         <onclick>ActivateWindow(InterfaceSettings)</onclick>
                                                         <thumb>dialogs/charms/charm_shutdown.png</thumb>

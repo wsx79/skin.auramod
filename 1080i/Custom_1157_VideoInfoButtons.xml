@@ -11,7 +11,7 @@
 
             <control type="label">
                 <description>Header Label</description>
-                <label>$LOCALIZE[31622]</label>
+                <label>[CAPITALIZE]$LOCALIZE[31622][/CAPITALIZE]</label> <!-- VideoInfo Buttons -->
                 <include>Dialog_Standard_Header</include>
             </control>
 
@@ -28,14 +28,14 @@
 		<onup>9000</onup>
 		<ondown>9000</ondown>
                 <control type="radiobutton" id="9001">
-                    <label>$LOCALIZE[31623]</label>
+                    <label>$LOCALIZE[31623]</label> <!-- More Episodes -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.MoreEps)</onclick>
                     <selected>!Skin.HasSetting(VideoInfoButton.MoreEps)</selected>
                 </control>
                 <control type="radiobutton" id="9002">
-                    <label>$LOCALIZE[31624]</label>
+                    <label>$LOCALIZE[31624]</label> <!-- Cast & More -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.CastMore)</onclick>
@@ -49,28 +49,28 @@
                     <selected>!Skin.HasSetting(VideoInfoButton.Trailer)</selected>
                 </control>
                 <control type="radiobutton" id="9004">
-                    <label>$LOCALIZE[31625]</label>
+                    <label>$LOCALIZE[31625]</label> <!-- Extended Info -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.EIS)</onclick>
                     <selected>!Skin.HasSetting(VideoInfoButton.EIS)</selected>
                 </control>
                 <control type="radiobutton" id="9005">
-                    <label>$LOCALIZE[31626]</label>
+                    <label>$LOCALIZE[31626]</label> <!-- Add to Watchlist -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.Watchlist)</onclick>
                     <selected>!Skin.HasSetting(VideoInfoButton.Watchlist)</selected>
                 </control>
                 <control type="radiobutton" id="9006">
-                    <label>$LOCALIZE[31627]</label>
+                    <label>$LOCALIZE[31627]</label> <!-- Choose Artwork -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.Art)</onclick>
                     <selected>!Skin.HasSetting(VideoInfoButton.Art)</selected>
                 </control>
                 <control type="radiobutton" id="9007">
-                    <label>$LOCALIZE[31628]</label>
+                    <label>$LOCALIZE[31628]</label> <!-- Refresh -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.Refresh)</onclick>
@@ -84,14 +84,14 @@
                     <selected>!Skin.HasSetting(VideoInfoButton.Trakt)</selected>
                 </control>
                 <control type="radiobutton" id="9009">
-                    <label>$LOCALIZE[31629]</label>
+                    <label>$LOCALIZE[31629]</label> <!-- Search -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.Search)</onclick>
                     <selected>Skin.HasSetting(VideoInfoButton.Search)</selected>
                 </control>
                 <control type="radiobutton" id="9010">
-                    <label>$LOCALIZE[31630]</label>
+                    <label>$LOCALIZE[31630]</label> <!-- Quick Play -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.QuickPlay)</onclick>

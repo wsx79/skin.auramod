@@ -2401,7 +2401,7 @@ msgstr ""
 
 #: /1080i/Custom_1125_EnableNetflixMenus.xml
 msgctxt "#31501"
-msgid " - Disable menu background color"
+msgid "Disable menu background color"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2821,7 +2821,7 @@ msgstr ""
 
 #: /1080i/Custom_1126_MovieHub_config.xml
 msgctxt "#31585"
-msgid "[CAPITALIZE]Movie Hub Configuration[/CAPITALIZE]"
+msgid "Movie Hub Configuration"
 msgstr ""
 
 #: /1080i/Custom_1126_MovieHub_config.xml
@@ -2836,7 +2836,7 @@ msgstr ""
 
 #: /1080i/Custom_1126_MovieHub_config.xml
 msgctxt "#31588"
-msgid " - Enable Compact Widget spacing"
+msgid "Enable Compact Widget spacing"
 msgstr ""
 
 #: /1080i/Custom_1126_MovieHub_config.xml
@@ -2851,7 +2851,7 @@ msgstr ""
 
 #: /1080i/Custom_1127_TVHub_config.xml
 msgctxt "#31591"
-msgid "[CAPITALIZE]TV Hub Configuration[/CAPITALIZE]"
+msgid "TV Hub Configuration"
 msgstr ""
 
 #: /1080i/Custom_1127_TVHub_config.xml
@@ -2881,7 +2881,7 @@ msgstr ""
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31597"
-msgid "[CAPITALIZE]Home Spotlight Config[/CAPITALIZE]"
+msgid "Home Spotlight Config"
 msgstr ""
 
 #: /1080i/Custom_1128_Spotlight_config.xml
@@ -2901,7 +2901,7 @@ msgstr ""
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31601"
-msgid " - Configure Custom Movie Lists"
+msgid "Configure Custom Movie Lists"
 msgstr ""
 
 #: /1080i/Custom_1128_Spotlight_config.xml
@@ -2916,7 +2916,7 @@ msgstr ""
 
 #: /1080i/Custom_1128_Spotlight_config.xml
 msgctxt "#31604"
-msgid " - Configure Custom TV Lists"
+msgid "Configure Custom TV Lists"
 msgstr ""
 
 #: /1080i/Custom_1128_Spotlight_config.xml
@@ -2931,7 +2931,7 @@ msgstr ""
 
 #: /1080i/Custom_1130_ShowInfo.xml
 msgctxt "#31607"
-msgid "[CAPITALIZE]Show Info Media types[/CAPITALIZE]"
+msgid "Show Info Media types"
 msgstr ""
 
 #: /1080i/Custom_1130_ShowInfo.xml
@@ -2951,7 +2951,7 @@ msgstr ""
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
 msgctxt "#31611"
-msgid "[CAPITALIZE]Spotlight Style[/CAPITALIZE]"
+msgid "Spotlight Style"
 msgstr ""
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
@@ -2961,7 +2961,7 @@ msgstr ""
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
 msgctxt "#31613"
-msgid " - Disable Spotlight Trailer auto-play"
+msgid "Disable Spotlight Trailer auto-play"
 msgstr ""
 
 #: /1080i/Custom_1132_SpotlightStyle.xml
@@ -2986,7 +2986,7 @@ msgstr ""
 
 #: /1080i/Custom_1140_EnableSubmenuSize.xml
 msgctxt "#31618"
-msgid "[CAPITALIZE]Choose Category Widget Size[/CAPITALIZE]"
+msgid "Choose Category Widget Size"
 msgstr ""
 
 #: /1080i/Custom_1140_EnableSubmenuSize.xml
@@ -3006,7 +3006,7 @@ msgstr ""
 
 #: /1080i/Custom_1157_VideoInfoButtons.xml
 msgctxt "#31622"
-msgid "[CAPITALIZE]VideoInfo Buttons[/CAPITALIZE]"
+msgid "VideoInfo Buttons"
 msgstr ""
 
 #: /1080i/Custom_1157_VideoInfoButtons.xml-DialogVideoInfo-Includes.xml
@@ -3051,7 +3051,7 @@ msgstr ""
 
 #: /1080i/Custom_1158_VideoInfo.xml
 msgctxt "#31631"
-msgid "[CAPITALIZE]Netflix VideoInfo Settings[/CAPITALIZE]"
+msgid "Netflix VideoInfo Settings"
 msgstr ""
 
 #: /1080i/Custom_1158_VideoInfo.xml
@@ -3076,7 +3076,7 @@ msgstr ""
 
 #: /1080i/Includes_MediaHub.xml
 msgctxt "#31636"
-msgid "[B]Click to set Widget Content[/B]"
+msgid "Click to set Widget Content"
 msgstr ""
 
 #: /1080i/Includes_MediaHub.xml
@@ -3086,7 +3086,7 @@ msgstr ""
 
 #: /1080i/Custom_1160_Spotlight_TV_List.xml
 msgctxt "#31638"
-msgid "[CAPITALIZE]Spotlight TV Lists[/CAPITALIZE]"
+msgid "Spotlight TV Lists"
 msgstr ""
 
 #: /1080i/Custom_1160_Spotlight_TV_List.xml
@@ -3107,11 +3107,6 @@ msgstr ""
 #: /1080i/Custom_1160_Spotlight_TV_List.xml
 msgctxt "#31642"
 msgid "TV List 4"
-msgstr ""
-
-#: /1080i/Custom_1161_Spotlight_Movie_List.xml
-msgctxt "#31642"
-msgid "[CAPITALIZE]Spotlight Movie Lists[/CAPITALIZE]"
 msgstr ""
 
 #: /1080i/Custom_1161_Spotlight_Movie_List.xml
@@ -3136,7 +3131,7 @@ msgstr ""
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31647"
-msgid "[CAPITALIZE]Search Hub Configuration[/CAPITALIZE]"
+msgid "Search Hub Configuration"
 msgstr ""
 
 #: /1080i/Custom_1163_SearchConfig.xml
@@ -3146,17 +3141,17 @@ msgstr ""
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31649"
-msgid " - Use default keyboard"
+msgid "Use default keyboard"
 msgstr ""
 
 #: /1080i/Custom_1163_SearchConfig.xml
 msgctxt "#31650"
-msgid " - Enable Search History (requires tmdb lists)"
+msgid "Enable Search History (requires tmdb lists)"
 msgstr ""
 
 #: /1080i/Custom_1164_MyLists.xml
 msgctxt "#31651"
-msgid "[CAPITALIZE]My Lists Configuration[/CAPITALIZE]"
+msgid "My Lists Configuration"
 msgstr ""
 
 #: /1080i/Custom_1164_MyLists.xml
@@ -3211,7 +3206,7 @@ msgstr ""
 
 #: /1080i/Custom_Hub_MovieAura.xml
 msgctxt "#31662"
-msgid "[B]Movie AuraHub[/B]"
+msgid "Movie AuraHub"
 msgstr ""
 
 #: /1080i/Custom_Hub_MovieAura.xml
@@ -3231,7 +3226,7 @@ msgstr ""
 
 #: /1080i/Custom_Hub_MoviesGenres.xml
 msgctxt "#31666"
-msgid "[B]TV AuraHub[/B]"
+msgid "TV AuraHub"
 msgstr ""
 
 #: /1080i/Custom_Hub_TVAura.xml
@@ -3276,22 +3271,22 @@ msgstr ""
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31675"
-msgid "[CAPITALIZE][B]Run Wizard[/B][/CAPITALIZE]"
+msgid "Run Wizard"
 msgstr ""
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31676"
-msgid "[CAPITALIZE][B]Manual Setup[/B][/CAPITALIZE]"
+msgid "Manual Setup"
 msgstr ""
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31677"
-msgid "[CAPITALIZE][B]Configure Hubs & Spotlights[/B][/CAPITALIZE]"
+msgid "Configure Hubs & Spotlights"
 msgstr ""
 
 #: /1080i/Custom_Setup.xml
 msgctxt "#31678"
-msgid "[CAPITALIZE][B]Finish Setup[/B][/CAPITALIZE]"
+msgid "Finish Setup"
 msgstr ""
 
 #: /1080i/Custom_Youtube.xml
@@ -3411,22 +3406,22 @@ msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31701"
-msgid "[B]Box Office[/B]"
+msgid "Box Office"
 msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31702"
-msgid "[B]Budget[/B]"
+msgid "Budget"
 msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31703"
-msgid "[B]Awards[/B]"
+msgid "Awards"
 msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31704"
-msgid "[B]Critics Consensus[/B]"
+msgid "Critics Consensus"
 msgstr ""
 
 #: /1080i/Includes_Items.xml
@@ -3471,32 +3466,32 @@ msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31713"
-msgid "[LIGHT]liked it[/LIGHT]"
+msgid "liked it"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31714"
-msgid "[CAPITALIZE][B]Play[/B][/CAPITALIZE]"
+msgid "Play"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31715"
-msgid "[B]More Info[/B]"
+msgid "More Info"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31716"
-msgid "[B]My TV Calendar[/B]"
+msgid "My TV Calendar"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31717"
-msgid "[B]Continue Watching[/B]"
+msgid "Continue Watching"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31718"
-msgid "[B]Channel:[/B]"
+msgid "Channel:"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
@@ -3797,4 +3792,9 @@ msgstr ""
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31778"
 msgid " - Enable Showcase auto-hide"
+msgstr ""
+
+#: /1080i/Custom_1161_Spotlight_Movie_List.xml
+msgctxt "#31779"
+msgid "Spotlight Movie Lists"
 msgstr ""
