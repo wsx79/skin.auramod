@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Horizon
-# Addon id: skin.horizon
-# Addon Provider: jurialmunkey
+# Addon Name: AuraMOD
+# Addon id: skin.auramod
+# Addon Provider: skyfsza,inb4after,SerpentDrago
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
@@ -2303,4 +2303,3 @@ msgstr "Panel de Lista Lateral"
 msgctxt "#31481"
 msgid "Netflix Landscape Showcase"
 msgstr "Escaparete de Paisajes Netflix"
-

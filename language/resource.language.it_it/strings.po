@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Horizon
+# Addon Name: AuraMOD
 # Addon id: skin.auramod
-# Addon Provider: jurialmunkey
+# Addon Provider: skyfsza,inb4after,SerpentDrago
 # Translators: FabioS
 msgid ""
 msgstr ""
@@ -2304,4 +2304,3 @@ msgstr "Pannello elenco laterale"
 msgctxt "#31481"
 msgid "Netflix Landscape Showcase"
 msgstr "Vetrina orizzontale di Netflix"
-
