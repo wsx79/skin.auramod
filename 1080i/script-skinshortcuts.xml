@@ -445,7 +445,7 @@
 <!--
                 <control type="radiobutton" id="99139" description="Widget Netflix">
                     <width>100%</width>
-                    <label>$LOCALIZE[31767]</label> <!-- Enable Netflix Style -->
+                    <label>$LOCALIZE[31767]</label>
                     <height>66</height>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <include>Dialog_Standard_ListButton</include>
