@@ -2426,13 +2426,13 @@ msgstr "Configuración APIs"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31506"
-msgid " - Open Category Widget on Focus"
-msgstr " - Abrir Widget de Categoría en Enfoque"
+msgid "Open Category Widget on Focus"
+msgstr "Abrir Widget de Categoría en Enfoque"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31507"
-msgid " - Disable onleft Menu Focus"
-msgstr " - Descativar el Enfoque del Menú Izquierdo"
+msgid "Disable onleft Menu Focus"
+msgstr "Descativar el Enfoque del Menú Izquierdo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31508"
@@ -2441,8 +2441,8 @@ msgstr "Acción Predeterminada de Selección - Mostrar Informacion"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31509"
-msgid " - Media Types"
-msgstr " - Tipos de Medios"
+msgid "Media Types"
+msgstr "Tipos de Medios"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31510"
@@ -2466,8 +2466,8 @@ msgstr "Configurar Centros de Peliculas"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31514"
-msgid "[B]Spotlight Widgets[/B]"
-msgstr "[B]Widgets de Destacados[/B]"
+msgid "Spotlight Widgets"
+msgstr "Widgets de Destacados"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31515"
@@ -2511,8 +2511,8 @@ msgstr "Configurar Destacado de LiveTV"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31523"
-msgid "[B]Search[/B]"
-msgstr "[B]Búsqueda[/B]"
+msgid "Search"
+msgstr "Búsqueda"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31524"
@@ -2521,7 +2521,7 @@ msgstr "Configurar Listas de Busqueda"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31525"
-msgid " - Use default keyboard"
+msgid "Use default keyboard"
 msgstr "Usar Teclado Predeterminado"
 
 #: /1080i/SkinSettings.xml
@@ -2551,8 +2551,8 @@ msgstr "Configurar Lista de Peliculas 1"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31531"
-msgid " - Enable AuraHub style"
-msgstr " - Activar Estilo AuraHub"
+msgid "Enable AuraHub style"
+msgstr "Activar Estilo AuraHub"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31532"
@@ -2626,27 +2626,27 @@ msgstr "Fanart Animado (zoom & pan)"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31546"
-msgid " - Enable Info overlay box"
-msgstr "- Habilitar cuadro de superposición de información"
+msgid " Enable Info overlay box"
+msgstr "Habilitar cuadro de superposición de información"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31547"
-msgid " - Use round style actor thumbs"
-msgstr " - Usar miniaturas de actor de estilo redondo"
+msgid "Use round style actor thumbs"
+msgstr "Usar miniaturas de actor de estilo redondo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31548"
-msgid " - Configure Netflix VideoInfo"
-msgstr " - Configurar Netflix VideoInfo"
+msgid "Configure Netflix VideoInfo"
+msgstr "Configurar Netflix VideoInfo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31549"
-msgid " - Disable Netflix Overlay"
-msgstr " - Desactivar Superposición de Netflix"
+msgid " Disable Netflix Overlay"
+msgstr "Desactivar Superposición de Netflix"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31550"
-msgid " - Down key starts trailer in Showcase Views"
+msgid "Down key starts trailer in Showcase Views"
 msgstr "La Tecla Abajo Comienza Trailer en Vista de Escaparate"
 
 #: /1080i/SkinSettings.xml
@@ -2681,7 +2681,7 @@ msgstr "Habilitar el estilo de la barra de menú de energía"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31557"
-msgid " - Use Aura Default loading icon"
+msgid "Use Aura Default loading icon"
 msgstr "Usar el icono de carga predeterminado de Aura"
 
 #: /1080i/SkinSettings.xml
@@ -2696,8 +2696,8 @@ msgstr "Desactivar la Imagen de la Pantalla de Bienvenida"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31560"
-msgid " - Choose Splash screen Image"
-msgstr " - Seleccionar Imagen para Pantalla de Bienvenida"
+msgid "Choose Splash screen Image"
+msgstr "Seleccionar Imagen para Pantalla de Bienvenida"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31561"
@@ -2711,13 +2711,13 @@ msgstr "Habilitar Mapa de Radar Meteorológico"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31563"
-msgid "- Set Radar Map URL"
-msgstr "- Establecer URL del Mapa de Radar"
+msgid "Set Radar Map URL"
+msgstr "Establecer URL del Mapa de Radar"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31564"
-msgid "[B]Widget Info bar[/B]"
-msgstr "[B]Barra de Información del Widget[/B]"
+msgid "Widget Info bar"
+msgstr "Barra de Información del Widget"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31565"
@@ -2726,18 +2726,18 @@ msgstr "Seleccionar Elementos de la Barra de Widgets"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31566"
-msgid " - Enable Large Label Font"
-msgstr " - Habilitar Fuente de Etiqueta Grande"
+msgid "Enable Large Label Font"
+msgstr "Habilitar Fuente de Etiqueta Grande"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31567"
-msgid " - Enable Cube Icon"
-msgstr " - Habilitar Icono de Cubo"
+msgid "Enable Cube Icon"
+msgstr "Habilitar Icono de Cubo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31568"
-msgid "[B]Submenu / Categories Widget[/B]"
-msgstr "[B]Submenú / Widget de Categorias[/B]"
+msgid "Submenu / Categories Widget"
+msgstr "Submenú / Widget de Categorias"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31569"
@@ -2771,8 +2771,8 @@ msgstr "Utilizar Fanart de Series de Televisión para los Episodios"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31575"
-msgid "[B]Suggested Movie/TV Widget[/B]"
-msgstr "[B]Widget Sugerido de Cine/Serie[/B]"
+msgid "Suggested Movie/TV Widget"
+msgstr "Widget Sugerido de Cine/Serie"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31576"
@@ -2806,8 +2806,8 @@ msgstr "Utilizar el Icono del Canal en el Widget Live TV"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31582"
-msgid " - use ClearLogo instead of ClearArt"
-msgstr " - usar ClearLogo en lugar de ClearArt"
+msgid "use ClearLogo instead of ClearArt"
+msgstr "usar ClearLogo en lugar de ClearArt"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31583"
@@ -3766,8 +3766,8 @@ msgstr "Habilitar Menú a la Izquierda"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31773"
-msgid " - Choose Menu"
-msgstr " - Seleccionar Menú"
+msgid "Choose Menu"
+msgstr "Seleccionar Menú"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31774"
@@ -3791,8 +3791,8 @@ msgstr "Activar la Superposición de Escaparate del Widget"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31778"
-msgid " - Enable Showcase auto-hide"
-msgstr " - Activar la Auto-Ocultación del Escaparate"
+msgid "Enable Showcase auto-hide"
+msgstr "Activar la Auto-Ocultación del Escaparate"
 
 #: /1080i/Custom_1161_Spotlight_Movie_List.xml
 msgctxt "#31779"

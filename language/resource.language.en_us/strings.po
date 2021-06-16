@@ -2426,12 +2426,12 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31506"
-msgid " - Open Category Widget on Focus"
+msgid "Open Category Widget on Focus"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31507"
-msgid " - Disable onleft Menu Focus"
+msgid "Disable onleft Menu Focus"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2441,7 +2441,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31509"
-msgid " - Media Types"
+msgid "Media Types"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2466,7 +2466,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31514"
-msgid "[B]Spotlight Widgets[/B]"
+msgid "Spotlight Widgets"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2511,7 +2511,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31523"
-msgid "[B]Search[/B]"
+msgid "Search"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2521,7 +2521,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31525"
-msgid " - Use default keyboard"
+msgid "Use default keyboard"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2551,7 +2551,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31531"
-msgid " - Enable AuraHub style"
+msgid "Enable AuraHub style"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2626,27 +2626,27 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31546"
-msgid " - Enable Info overlay box"
+msgid "Enable Info overlay box"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31547"
-msgid " - Use round style actor thumbs"
+msgid "Use round style actor thumbs"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31548"
-msgid " - Configure Netflix VideoInfo"
+msgid "Configure Netflix VideoInfo"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31549"
-msgid " - Disable Netflix Overlay"
+msgid "Disable Netflix Overlay"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31550"
-msgid " - Down key starts trailer in Showcase Views"
+msgid "Down key starts trailer in Showcase Views"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2681,7 +2681,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31557"
-msgid " - Use Aura Default loading icon"
+msgid "Use Aura Default loading icon"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2711,12 +2711,12 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31563"
-msgid "- Set Radar Map URL"
+msgid "Set Radar Map URL"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31564"
-msgid "[B]Widget Info bar[/B]"
+msgid "Widget Info bar"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2726,17 +2726,17 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31566"
-msgid " - Enable Large Label Font"
+msgid "Enable Large Label Font"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31567"
-msgid " - Enable Cube Icon"
+msgid "Enable Cube Icon"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31568"
-msgid "[B]Submenu / Categories Widget[/B]"
+msgid "Submenu / Categories Widget"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2771,7 +2771,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31575"
-msgid "[B]Suggested Movie/TV Widget[/B]"
+msgid "Suggested Movie/TV Widget["
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -2806,7 +2806,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31582"
-msgid " - use ClearLogo instead of ClearArt"
+msgid "use ClearLogo instead of ClearArt"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -3766,7 +3766,7 @@ msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31773"
-msgid " - Choose Menu"
+msgid "Choose Menu"
 msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
@@ -3791,7 +3791,7 @@ msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31778"
-msgid " - Enable Showcase auto-hide"
+msgid "Enable Showcase auto-hide"
 msgstr ""
 
 #: /1080i/Custom_1161_Spotlight_Movie_List.xml
