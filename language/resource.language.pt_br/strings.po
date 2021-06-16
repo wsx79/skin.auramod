@@ -3311,7 +3311,7 @@ msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31689"
-msgid "Cast &amp; More"
+msgid "Cast & More"
 msgstr ""
 
 #: /1080i/DialogVideoInfo-Includes.xml
@@ -3501,7 +3501,7 @@ msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31727"
-msgid "PVR &amp; Live TV"
+msgid "PVR & Live TV"
 msgstr ""
 
 #: /1080i/Includes_Object.xml
@@ -3516,7 +3516,7 @@ msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31730"
-msgid "Menu &amp; Widgets"
+msgid "Menu & Widgets"
 msgstr ""
 
 #: /1080i/Includes_Object.xml

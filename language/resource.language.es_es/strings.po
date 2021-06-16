@@ -3311,7 +3311,7 @@ msgstr "Reproducir Desde el Principio"
 
 #: /1080i/DialogVideoInfo-Includes.xml
 msgctxt "#31689"
-msgid "Cast &amp; More"
+msgid "Cast & More"
 msgstr "Reparto y Más"
 
 #: /1080i/DialogVideoInfo-Includes.xml
@@ -3501,7 +3501,7 @@ msgstr "Configuración de Medios"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31727"
-msgid "PVR &amp; Live TV"
+msgid "PVR & Live TV"
 msgstr "PVR y Live TV"
 
 #: /1080i/Includes_Object.xml
@@ -3516,7 +3516,7 @@ msgstr "Preferencias"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31730"
-msgid "Menu &amp; Widgets"
+msgid "Menu & Widgets"
 msgstr "Menú y Widgets"
 
 #: /1080i/Includes_Object.xml
