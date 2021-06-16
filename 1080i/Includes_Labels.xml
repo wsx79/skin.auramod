@@ -63,7 +63,7 @@
 
     <variable name="videoinfo_rtmeter">
 	 <value condition="!String.IsEmpty(ListItem.Property(rottentomatoes_rating))">$INFO[ListItem.Property(rottentomatoes_rating)]</value>
-	 <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + String.IsEqual(Container(8999).ListItem.Label,More Info)">$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]</value>
+	 <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Rating)]</value> <!-- More Info -->
     </variable>
 
     <variable name="rating_usermeter">
@@ -78,27 +78,27 @@
 
     <variable name="videoinfo_usermeter">
          <value condition="!String.IsEmpty(ListItem.Property(rottentomatoes_usermeter))">$INFO[ListItem.Property(rottentomatoes_usermeter)]</value>
-         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + String.IsEqual(Container(8999).ListItem.Label,More Info)">$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_UserMeter)]</value> <!-- More Info -->
     </variable>
 
     <variable name="videoinfo_budget">
          <value condition="!String.IsEmpty(ListItem.Property(budget))">$INFO[ListItem.Property(budget)]</value>
-         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Budget)) + String.IsEqual(Container(8999).ListItem.Label,More Info)">$INFO[Window(Home).Property(TMDbHelper.ListItem.Budget)]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Budget)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.Budget)]</value> <!-- More Info -->
     </variable>
 
     <variable name="videoinfo_awards">
          <value condition="!String.IsEmpty(ListItem.Property(awards))">$INFO[ListItem.Property(awards)]</value>
-         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEqual(Container(8999).ListItem.Label,More Info)">$INFO[Window(Home).Property(TMDbHelper.ListItem.Awards)]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.Awards)]</value> <!-- More Info -->
     </variable>
 
     <variable name="videoinfo_boxoffice">
          <value condition="!String.IsEmpty(ListItem.Property(revenue))">$INFO[ListItem.Property(revenue)]</value>
-         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Revenue)) + String.IsEqual(Container(8999).ListItem.Label,More Info)">$INFO[Window(Home).Property(TMDbHelper.ListItem.Revenue)]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Revenue)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.Revenue)]</value> <!-- More Info -->
     </variable>
 
     <variable name="videoinfo_consensus">
          <value condition="!String.IsEmpty(ListItem.Property(rottentomatoes_consensus))">$INFO[ListItem.Property(rottentomatoes_consensus)]</value>
-         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Consensus)) + String.IsEqual(Container(8999).ListItem.Label,More Info)">$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Consensus)]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Consensus)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Consensus)]</value> <!-- More Info -->
     </variable>
 
     <variable name="Label_OSD_SubtitlesLanguage">

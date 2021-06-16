@@ -1711,7 +1711,7 @@
 			<description>Tomato Block</description>
 		        <top>100</top>
         		<left>360</left>
-			<visible>Control.HasFocus(8999) + String.IsEqual(Container(8999).ListItem.Label,More Info)</visible>
+			<visible>Control.HasFocus(8999) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])</visible> <!-- More Info -->
 			<visible>!String.IsEmpty(ListItem.Property(rottentomatoes_consensus)) | !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.RottenTomatoes_Consensus))</visible>
 			<control type="grouplist"><!-- START First Column -->
 				<description>First Column</description>
@@ -1921,7 +1921,7 @@
         <animation effect="fade" start="0" end="1000" time="400">Visible</animation>
        <include condition="!Skin.HasSetting(VideoInfo.Disable) + Skin.HasSetting(VideoInfo.Seasons) + String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBType,movie)" content="episode_list">
           <param name="id" value="53000" />
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,Seasons)" />
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31499])" /> <!-- Seasons -->
           <param name="content" value="$VAR[seasons_content_videoinfo]" />
 	  <param name="onclick" value="Dialog.Close(all,force)" />
 	  <param name="onclick2" value="ActivateWindow(10025,$ESCINFO[ListItem.FileNameAndPath],return)" />
@@ -1929,14 +1929,14 @@
 
        <include condition="!Skin.HasSetting(VideoInfo.Disable) + Skin.HasSetting(VideoInfo.Episodes) + String.IsEmpty(ListItem.DBID) + String.IsEqual(ListItem.DBType,tvshow)" content="episode_list">
           <param name="id" value="53012" />
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,Next Up)" />
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31221])" /> <!-- Next Up -->
           <param name="content" value="$VAR[nextup_content_videoinfo]" />
           <param name="onclick" value="" />
           <param name="onclick2" value="PlayMedia(plugin://plugin.video.themoviedb.helper/?info=play&season=$INFO[Container.ListItem.Season]&type=episode&episode=$INFO[Container.ListItem.Episode]&tmdb_id=$INFO[Container.ListItem.Property(tvshow.tmdb_id)])" />
         </include>
        <include condition="!Skin.HasSetting(VideoInfo.Disable) + Skin.HasSetting(VideoInfo.Episodes) + String.IsEmpty(ListItem.DBID) + String.IsEqual(ListItem.DBType,episode) + String.Contains(ListItem.Path,plugin.video.seren)" content="episode_list">
           <param name="id" value="53011" />
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,Episodes)" />
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31500])" /> <!-- Episodes -->
           <param name="content" value="plugin://plugin.video.seren/?action=seasonEpisodes&actionArgs=%7B%22item_type%22%3A%20%22season%22%2C%20%22trakt_id%22%3A%20$INFO[ListItem.Property(tvshow.trakt_id)]%2C%20%22season%22%3A%20$INFO[ListItem.Season]%7D" />
           <param name="onclick" value="Dialog.Close(all,force)" />
           <param name="onclick2" value="$VAR[videoinfo_onclick_episode]" />
@@ -1995,7 +1995,7 @@
           <param name="height" value="880" />
           <param name="width" value="1800" />
           <param name="label" value="Similar" />
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,Similar) + !String.IsEmpty(ListItem.Label)" />
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31494]) + !String.IsEmpty(ListItem.Label)" /> <!-- Similar -->
         </include>
         <include condition="!Skin.HasSetting(VideoInfo.Disable) + !Skin.HasSetting(VideoInfo.DirectorMovies)" content="Widget_TMDB">
           <param name="id" value="53004" />
@@ -2101,7 +2101,7 @@
           <param name="onclick2" value="PlayMedia($INFO[Container(53007).ListItem.FileNameAndPath],1)" />
           <param name="onclick3" value="SetProperty(TrailerPlaying,fullscreen,home)" />
           <param name="onclick4" value="SetProperty(BaseWindow,InfoDialog,Home)" />
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,Youtube)" />
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31141])" /> <!-- Youtube -->
         </include>
       </control>
       <include>Object_UpDownInfoArrows</include>
