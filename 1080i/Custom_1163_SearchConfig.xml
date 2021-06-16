@@ -39,9 +39,9 @@
                             <onclick>RunScript(script.skinshortcuts,type=manage&amp;group=searchmenus)</onclick>
                         </control>
 <!--
-                        <control type="radiobutton" id="8002" description="Enable Random Spotlight">
+                        <control type="radiobutton" id="8002" description="Use default keyboard">
                             <include>Dialog_Standard_ListButton</include>
-                            <label> - $LOCALIZE[31649]</label> <!-- Use default keyboard -->
+                            <label> - $LOCALIZE[31649]</label>
                             <radioposx>730</radioposx>
                             <onclick>Skin.ToggleSetting(EnableSearchDefaultKB)</onclick>
                             <selected>Skin.HasSetting(EnableSearchDefaultKB)</selected>

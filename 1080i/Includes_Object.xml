@@ -8014,7 +8014,7 @@
       <left>50</left>
       <animation effect="slide" end="40,0" time="200" condition="!Skin.HasSetting(DisableMenuVertIcon) + [Control.HasFocus(300) | !Skin.HasSetting(DisableNetflixHomeSidemenuHide)]">Conditional</animation>
       <animation effect="slide" end="40,0" time="500" delay="0" condition="Skin.HasSetting(DisableMenuVertLabelOnly) + [!Control.HasFocus(300) | !Control.HasFocus(400) | !Control.HasFocus(401)]" reversible="true">Conditional</animation>
-      <!--> Row 1 <!-->
+      <!-- Row 1 -->
       <control type="label">
         <top>50</top>
         <left>20</left>
@@ -8132,7 +8132,7 @@
           </item>
         </content>
       </control>
-      <!--> Row 2 <!-->
+      <!-- Row 2 -->
       <control type="label">
         <top>370</top>
         <left>20</left>
@@ -8257,7 +8257,7 @@
           </item>
         </content>
       </control>
-      <!--> Row 3 <!-->
+      <!-- Row 3 -->
       <control type="label">
         <top>690</top>
         <left>20</left>

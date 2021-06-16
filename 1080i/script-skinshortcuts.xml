@@ -443,7 +443,7 @@
                     <include>Dialog_Standard_Right_Buttons</include>
                 </control>
 <!--
-                <control type="radiobutton" id="99139" description="Widget Netflix">
+                <control type="radiobutton" id="99139" description="Enable Netflix Style">
                     <width>100%</width>
                     <label>$LOCALIZE[31767]</label>
                     <height>66</height>

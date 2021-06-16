@@ -28,7 +28,7 @@
         <height>100</height>
         <bottom>180</bottom>
         <left>600</left> 
-        <label>>[CAPITALIZE][B]$LOCALIZE[31675][/B][/CAPITALIZE]</label> <!-- Run Wizard -->
+        <label>[CAPITALIZE][B]$LOCALIZE[31675][/B][/CAPITALIZE]</label> <!-- Run Wizard -->
         <align>center</align>
         <textcolor>grey</textcolor>
         <focusedcolor>black</focusedcolor>
