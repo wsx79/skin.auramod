@@ -12,7 +12,7 @@
 
             <control type="label">
                 <description>Header Label</description>
-                <label>[CAPITALIZE]Aura Widget Bar[/CAPITALIZE]</label>
+                <label>[CAPITALIZE]$LOCALIZE[31784][/CAPITALIZE]</label> <!-- Aura Widget Bar -->
                 <include>Dialog_Standard_Header</include>
             </control>
 

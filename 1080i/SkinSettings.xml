@@ -475,7 +475,7 @@
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9014)</visible>
                             <include>Defs_Settings_Button</include>
                             <enable>Skin.HasSetting(EnableSpotlight)</enable>
-                            <label> - LiveTV Button Color</label>
+                            <label> - $LOCALIZE[31798]</label>
                             <label2>$INFO[Skin.String(pvrspot.color)]</label2>
                             <onclick condition="!System.HasAddon(script.skin.helper.colorpicker)">InstallAddon(script.skin.helper.colorpicker)</onclick>
                             <onclick>RunScript(script.skin.helper.colorpicker,skinstring=pvrspot.color)</onclick>
@@ -932,13 +932,13 @@
                         <control type="button" id="9510" description="Enable video info lists">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9005)</visible>
                             <include>Defs_Settings_Button</include>
-                            <label>Enable / disable Video Info lists</label>
+                            <label>$LOCALIZE[31799]</label>
                             <onclick>ActivateWindow(1119)</onclick>
                         </control>
                         <control type="button" id="95110" description="Enable video info buttons">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9005)</visible>
                             <include>Defs_Settings_Button</include>
-                            <label>Enable / disable Video Info buttons</label>
+                            <label>$LOCALIZE[31800]</label>
                             <onclick>ActivateWindow(1157)</onclick>
                         </control>
 -->
@@ -1405,7 +1405,7 @@
                         <control type="radiobutton" id="9613" description="Enable Netflix Style Fixed Focus">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9011)</visible>
                             <include>Defs_Settings_Button</include>
-                            <label>Enable Netflix Style Fixed Focus</label>
+                            <label>$LOCALIZE[31801]</label>
                             <selected>Skin.HasSetting(NetflixFixedBox)</selected>
                             <onclick>Skin.ToggleSetting(NetflixFixedBox)</onclick>
                         </control>

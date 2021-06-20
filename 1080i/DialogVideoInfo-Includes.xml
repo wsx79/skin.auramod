@@ -1504,7 +1504,7 @@
             <radioheight>48</radioheight>
             <radioposx>2</radioposx>
             <visible>!Skin.HasSetting(VideoInfoButton.Trailer) + !Player.HasVideo + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie)] + [!String.IsEmpty(ListItem.Trailer) | !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Trailer))]</visible>
-            <label>Trailer</label>
+            <label>$LOCALIZE[31785]</label> <!-- Trailer -->
             <onclick condition="!Player.HasVideo + !String.IsEmpty(ListItem.Trailer) + [String.IsEqual(ListItem.DBTYPE,movie) | String.IsEqual(ListItem.DBTYPE,tvshow)]">PlayMedia($INFO[ListItem.Trailer],1)</onclick>
             <onclick condition="!Player.HasVideo + String.IsEmpty(ListItem.Trailer)">Playmedia($INFO[Window(Home).Property(TMDBHelper.ListItem.Trailer)],1)</onclick>
             <onclick condition="!Player.HasVideo + [!String.IsEmpty(ListItem.Trailer) | !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Trailer))]">SetProperty(TrailerPlaying,fullscreen,home)</onclick>
@@ -1560,7 +1560,7 @@
             <radioheight>48</radioheight>
             <radioposx>2</radioposx>
             <visible>String.IsEmpty(Window(home).Property(TrailerPlaying)) + !Skin.HasSetting(VideoInfoButton.Trakt) +  !String.IsEmpty(ListItem.Property(trakt_id)) + String.Contains(ListItem.Path,plugin.video.seren) + [String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode)]</visible>
-            <label>Trakt Manager</label>
+            <label>$LOCALIZE[31786]</label> <!-- Trakt Manager -->
             <onclick condition="String.Contains(ListItem.Path,plugin.video.seren) + String.IsEqual(ListItem.DBType,episode)">RunPlugin(plugin://plugin.video.seren/?action=traktManager&amp;actionArgs=%7B%22episode%22%3A%20$INFO[ListItem.Episode]%2C%20%22item_type%22%3A%20%22episode%22%2C%20%22season%22%3A%20$INFO[ListItem.Season]%2C%20%22trakt_id%22%3A%20$INFO[ListItem.Property(tvshow.trakt_id)]%7D)</onclick>
             <onclick condition="String.Contains(ListItem.Path,plugin.video.seren) + String.IsEqual(ListItem.DBType,tvshow)">RunPlugin(plugin://plugin.video.seren/?action=traktManager&amp;actionArgs=%7b%22mediatype%22%3a%20%22tvshow%22%2c%20%22trakt_id%22%3a%20$INFO[ListItem.Property(trakt_id)]%7d)</onclick>
             <onclick condition="String.Contains(ListItem.Path,plugin.video.seren) + String.IsEqual(ListItem.DBType,movie)">RunPlugin(plugin://plugin.video.seren/?action=traktManager&amp;actionArgs=%7b%22item_type%22%3a%20%22movie%22%2c%20%22trakt_id%22%3a%20$INFO[ListItem.Property(trakt_id)]%7d)</onclick>
@@ -1661,7 +1661,7 @@
             <visible>!String.IsEmpty(ListItem.Set) + [Integer.IsGreater(Container(53002).NumItems,0) | Container(53002).IsUpdating]</visible>
           </item>
           <item id="4">
-            <label>Similar</label>
+            <label>$LOCALIZE[31494]</label> <!-- Similar -->
             <visible>Integer.IsGreater(Container(53003).NumItems,0) | Container(53003).IsUpdating</visible>
           </item>
           <item id="5">
@@ -1853,7 +1853,7 @@
 					<textcolor>dimgrey</textcolor>
 					<width>720</width>
 					<height>183</height>
-					<label fallback="No reviews available">[I]"$VAR[videoinfo_consensus]"[/I]</label>
+					<label fallback="$LOCALIZE[31788]">[I]"$VAR[videoinfo_consensus]"[/I]</label> <!-- No reviews available -->
 				</control>
 			</control>
 			

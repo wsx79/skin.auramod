@@ -339,7 +339,7 @@
                 </control>
 		<control type="label" id="9991">
 		   <height>70</height>
-		   <label>Widgets</label>
+		   <label>$LOCALIZE[31247]</label> <!-- Widgets -->
 		   <font>font_heading_small</font>
                    <textcolor>dialog_fg_70</textcolor>
 		</control>
@@ -491,7 +491,7 @@
 <!--
                 <control type="radiobutton" id="9907" description="List as Widget">
                     <width>100%</width>
-                    <label>Enable My List as Widget</label>
+                    <label>$LOCALIZE[31793]</label>
                     <height>66</height>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <include>Dialog_Standard_ListButton</include>
@@ -508,7 +508,7 @@
                 <control type="button" id="9908" description="Choose MenuHub">
                    <width>100%</width>
                     <height>66</height>
-                    <label> - Choose List</label>
+                    <label> - $LOCALIZE[31794]</label>
                     <visible>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True) + String.IsEqual(Container(211).ListItem.Property(widgethub),true)</visible>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <label2>$INFO[Container(211).ListItem.Property(widgethubselect)]</label2>
@@ -545,7 +545,7 @@
 <!--
                 <control type="radiobutton" id="9919" description="My List Widget">
                     <width>100%</width>
-                    <label>Enable My List as Widget</label>
+                    <label>$LOCALIZE[31793]</label>
                     <height>66</height>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <include>Dialog_Standard_ListButton</include>
@@ -562,7 +562,7 @@
                 <control type="button" id="99101" description="Choose List">
                    <width>100%</width>
                     <height>66</height>
-                    <label> - Choose List</label>
+                    <label> - $LOCALIZE[31794]</label>
                     <visible>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True) + String.IsEqual(Container(211).ListItem.Property(menuonleft),true) + !Skin.HasSetting(DisableAuraHomeLayout)</visible>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <label2>$INFO[Container(211).ListItem.Property(menuonleftselect)]</label2>
@@ -572,7 +572,7 @@
                 <control type="button" id="99103" description="List Widget Aspect">
                    <width>100%</width>
                     <height>66</height>
-                    <label> - Widget Aspect</label>
+                    <label> - $LOCALIZE[31795]</label>
                     <visible>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True) + String.IsEqual(Container(211).ListItem.Property(menuonleft),true) + !Skin.HasSetting(DisableAuraHomeLayout)</visible>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <label2>$INFO[Container(211).ListItem.Property(menuonleftaspect)]</label2>
@@ -582,7 +582,7 @@
                 <control type="button" id="99104" description="List Widget Aspect">
                    <width>100%</width>
                     <height>66</height>
-                    <label> - Widget Location</label>
+                    <label> - $LOCALIZE[31796]</label>
                     <visible>!String.IsEqual(Container(211).ListItem.Property(skinshortcuts-disabled),True) + String.IsEqual(Container(211).ListItem.Property(menuonleft),true) + !Skin.HasSetting(DisableAuraHomeLayout)</visible>
                     <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
                     <label2>$INFO[Skin.String(menuonleftposition)]</label2>
@@ -706,7 +706,7 @@
                 </control>
                 <control type="label" id="9992">
                    <height>70</height>
-                   <label>Global</label>
+                   <label>$LOCALIZE[31797]</label> <!-- Global -->
                    <font>font_heading_small</font>
                    <textcolor>dialog_fg_70</textcolor>
                 </control>

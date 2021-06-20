@@ -379,7 +379,7 @@
           <height>40</height>
           <font>font_widgetbar_bold</font>
           <textcolor>$VAR[ColorHighlight]</textcolor>
-          <label>Continue Watching S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
+          <label>$LOCALIZE[31717] S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
           <scroll>true</scroll>
         </control>
         <control type="label">
@@ -526,7 +526,7 @@
           <left>53%</left>
           <font>font_widgetbar_bold</font>
           <textcolor>$VAR[ColorHighlight]</textcolor>
-          <label>Continue Watching S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
+          <label>$LOCALIZE[31717] S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
           <scroll>true</scroll>
         </control>
         <control type="label">
@@ -665,7 +665,7 @@
           <left>53%</left>
           <font>font_epg_timeline</font>
           <textcolor>dimgrey</textcolor>
-          <label fallback="19055">[I]Aired $INFO[ListItem.Premiered(DDD MMM yyyy)] on [/I]</label>
+          <label fallback="19055">[I]$LOCALIZE[31789] $INFO[ListItem.Premiered(DDD MMM yyyy)] $LOCALIZE[31282] [/I]</label> <!-- Aired PREMIEREDATE on -->
         </control>
         <control type="image">
           <top>180</top>
@@ -1008,7 +1008,7 @@
         <width>490</width>
         <font>font_posterdetail_small</font>
         <textcolor>main_fg_100</textcolor>
-        <label>$VAR[date_aired] Length: [/COLOR][B]$VAR[Label_Duration][/B][COLOR=$VAR[ColorHighlight]] Ends: [/COLOR][B]$INFO[ListItem.EndTime][/B]</label>
+        <label>$VAR[date_aired] $LOCALIZE[31792]: [/COLOR][B]$VAR[Label_Duration][/B][COLOR=$VAR[ColorHighlight]] $LOCALIZE[31748]: [/COLOR][B]$INFO[ListItem.EndTime][/B]</label> <!-- Length: DURATION Ends: ENDTIME -->
         <visible>!String.IsEqual(ListItem.Label,See More...)</visible>
       </control>
       <control type="textbox">
@@ -1021,7 +1021,7 @@
         <scroll>true</scroll>
         <font>font_posterdetail_small</font>
         <textcolor>main_fg_100</textcolor>
-        <label>[COLOR=$VAR[ColorHighlight]]Genre: [/COLOR]$INFO[ListItem.Genre]</label>
+        <label>[COLOR=$VAR[ColorHighlight]]$LOCALIZE[31497]: [/COLOR]$INFO[ListItem.Genre]</label> <!-- Genre -->
         <visible>!String.IsEqual(ListItem.Label,See More...)</visible>
       </control>
       <control type="textbox">

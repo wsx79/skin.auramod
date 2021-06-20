@@ -42,7 +42,7 @@
                     <selected>!Skin.HasSetting(VideoInfoButton.CastMore)</selected>
                 </control>
                 <control type="radiobutton" id="9003">
-                    <label>Trailer</label>
+                    <label>$LOCALIZE[31785]</label> <!-- Trailer -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.Trailer)</onclick>
@@ -77,7 +77,7 @@
                     <selected>!Skin.HasSetting(VideoInfoButton.Refresh)</selected>
                 </control>
                 <control type="radiobutton" id="9008">
-                    <label>Trakt Manager</label>
+                    <label>$LOCALIZE[31786]</label> <!-- Trakt Manager -->
                     <radioposx>730</radioposx>
                     <include>Dialog_Standard_ListButton</include>
                     <onclick>Skin.ToggleSetting(VideoInfoButton.Trakt)</onclick>

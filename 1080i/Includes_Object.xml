@@ -1919,7 +1919,7 @@
             <left>0</left>
             <height>60</height>
             <visible>!Integer.IsGreater(ListItem.PercentPlayed,1) + String.IsEqual(ListItem.DBType,episode) + !Skin.HasSetting(EnableFullEpInfo)</visible>
-            <label fallback="19055">[I]Aired $INFO[ListItem.Premiered(DDD MMM yyyy)] on $INFO[ListItem.Studio][/I]</label>
+            <label fallback="19055">[I]$LOCALIZE[31789] $INFO[ListItem.Premiered(DDD MMM yyyy)] $LOCALIZE[31282] $INFO[ListItem.Studio][/I]</label> <!-- Aired DATE on STUDIO -->
             <width>750</width>
             <textcolor>main_fg_100</textcolor>
             <shadowcolor>black</shadowcolor>
@@ -2175,7 +2175,7 @@
                 <!-- Aired -->
                 <control type="label">
                   <width>195</width>
-                  <label>Aired: $INFO[Container($PARAM[id]).ListItem.Premiered(dd MMM yyyy)]</label>
+                  <label>$LOCALIZE[31789]: $INFO[Container($PARAM[id]).ListItem.Premiered(dd MMM yyyy)]</label> <!-- Aired -->
                   <textcolor>$VAR[ColorHighlight2]</textcolor>
                   <font>font_tiny_bold</font>
                   <visible>String.IsEqual(Container($PARAM[id]).ListItem.DBType,episode)</visible>
@@ -5945,7 +5945,7 @@
                 <font>widget_trakt_title2</font>
                 <textcolor>white</textcolor>
                 <scroll>false</scroll>
-                <label>$INFO[Container($PARAM[id]).ListItem.Duration(h),,h] $INFO[Container($PARAM[id]).ListItem.Duration(mm),,m]</label>
+                <label>$INFO[Container($PARAM[id]).ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container($PARAM[id]).ListItem.Duration(mm),,$LOCALIZE[31020]]</label> <!-- Duration h HOURS Duration m MINUTES -->
               </control>
             </control>
             <!-- Season Count -->
@@ -5968,7 +5968,7 @@
                 <align>center</align>
                 <font>widget_trakt_title2</font>
                 <textcolor>grey</textcolor>
-                <label>$INFO[Container($PARAM[id]).ListItem.Property(TotalSeasons)] Season</label>
+                <label>$INFO[Container($PARAM[id]).ListItem.Property(TotalSeasons)] $LOCALIZE[31750]</label> <!-- Season -->
                 <visible>String.IsEqual(Container($PARAM[id]).ListItem.DBType,tvshow) + String.IsEqual(Container($PARAM[id]).ListItem.Property(TotalSeasons),1)</visible>
               </control>
 
@@ -5978,14 +5978,14 @@
                 <align>center</align>
                 <font>widget_trakt_title2</font>
                 <textcolor>grey</textcolor>
-                <label>$INFO[Container($PARAM[id]).ListItem.Property(TotalSeasons)] Seasons</label>
+                <label>$INFO[Container($PARAM[id]).ListItem.Property(TotalSeasons)] $LOCALIZE[31499]</label> <!-- Seasons -->
                 <visible>String.IsEqual(Container($PARAM[id]).ListItem.DBType,tvshow) + String.IsGreaterOrEqual(Container($PARAM[id]).ListItem.Property(TotalSeasons),2) + !String.IsEmpty(Container($PARAM[id]).ListItem.Property(TotalSeasons))</visible>
               </control>
             </control>
             <!-- Aired -->
             <control type="label">
               <width>195</width>
-              <label>Aired: $INFO[Container($PARAM[id]).ListItem.Premiered(dd MMM yyyy)]</label>
+              <label>$LOCALIZE[31789]: $INFO[Container($PARAM[id]).ListItem.Premiered(dd MMM yyyy)]</label> <!-- Aired -->
               <textcolor>$VAR[ColorHighlight2]</textcolor>
               <font>font_tiny_bold</font>
               <visible>String.IsEqual(Container($PARAM[id]).ListItem.DBType,episode)</visible>
@@ -6118,7 +6118,7 @@
             <!-- Aired -->
             <control type="label">
               <width>195</width>
-              <label>Aired: $INFO[ListItem.Premiered(dd MMM yyyy)]</label>
+              <label>$LOCALIZE[31789]: $INFO[ListItem.Premiered(dd MMM yyyy)]</label> <!-- Aired -->
               <textcolor>$VAR[ColorHighlight2]</textcolor>
               <font>font_tiny_bold</font>
               <visible>String.IsEqual(ListItem.DBType,episode)</visible>
@@ -6704,7 +6704,7 @@
         </control>
         <!-- Add Ratings -->
         <control type="label">
-          <label>Aired: $INFO[ListItem.Premiered(dd MMM yyyy)]</label>
+          <label>$LOCALIZE[31789]: $INFO[ListItem.Premiered(dd MMM yyyy)]</label> <!-- Aired -->
           <textcolor>$VAR[ColorHighlight2]</textcolor>
           <font>font_tiny_bold</font>
           <include>Statusbar_Menubar_Items</include>
@@ -6883,7 +6883,7 @@
         <!-- Add Airdate -->
         <control type="label">
           <top>-2</top>
-          <label>Aired: $INFO[ListItem.Premiered(dd MMM yyyy)]</label>
+          <label>$LOCALIZE[31789]: $INFO[ListItem.Premiered(dd MMM yyyy)]</label> <!-- Aired -->
           <textcolor>$VAR[ColorHighlight2]</textcolor>
           <font>font_tiny_bold</font>
           <include>Statusbar_Menubar_Items</include>
@@ -7819,7 +7819,7 @@
    <height>40</height>
    <font>font_heading_small</font>
    <textcolor>white</textcolor>
-   <label>[B]AuraHub[/B]</label>
+   <label>[B]$LOCALIZE[31790][/B]</label> <!-- AuraHub -->
    </control> 
    </control> 
 
@@ -8353,7 +8353,7 @@
             <thumb>special://skin/extras/icons/search.png</thumb>
           </item>
           <item>
-            <label>Addons</label>
+            <label>$LOCALIZE[31787]</label> <!-- Addons -->
             <onclick>ActivateWindow(addonbrowser)</onclick>
             <thumb>settings/apps.png</thumb>
           </item>

@@ -70,7 +70,7 @@
 					</focusedlayout>
 					<content>
 						<item>
-							<label>Addons</label>
+							<label>$LOCALIZE[31787]</label> <!-- Addons -->
 							<onclick>Dialog.Close(all,true)</onclick>
 							<onclick>ActivateWindow(addonbrowser)</onclick>
 							<thumb>dialogs/charms/charm_home.png</thumb>

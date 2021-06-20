@@ -3784,3 +3784,402 @@ msgstr ""
 msgctxt "#31783"
 msgid "remaining"
 msgstr ""
+
+#: /1080i/Custom_1133_WidgetBar.xml
+msgctxt "#31784"
+msgid "Aura Widget Bar"
+msgstr ""
+
+#: /1080i/Custom_1157_VideoInfoButtons.xml
+msgctxt "#31785"
+msgid "Trailer"
+msgstr ""
+
+#: /1080i/Custom_1157_VideoInfoButtons.xml
+msgctxt "#31786"
+msgid "Trakt Manager"
+msgstr ""
+
+#: /1080i/DialogButtonMenu-Includes.xml
+msgctxt "#31787"
+msgid "Addons"
+msgstr ""
+
+#: /1080i/DialogVideoInfo-Includes.xml
+msgctxt "#31788"
+msgid "No reviews available"
+msgstr ""
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31789"
+msgid "Aired"
+msgstr ""
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31790"
+msgid "AuraHub"
+msgstr ""
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31791"
+msgid "EPISODE"
+msgstr ""
+
+#: /1080i/Includes_WidgetMods.xml
+msgctxt "#31792"
+msgid "Length"
+msgstr ""
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31793"
+msgid "Enable My List as Widget"
+msgstr ""
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31794"
+msgid "Choose List"
+msgstr ""
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31795"
+msgid "Widget Aspect"
+msgstr ""
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31796"
+msgid "Widget Location"
+msgstr ""
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31797"
+msgid "Global"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31798"
+msgid "LiveTV Button Color"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31799"
+msgid "Enable / disable Video Info lists"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31800"
+msgid "Enable / disable Video Info buttons"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31801"
+msgid "Enable Netflix Style Fixed Focus"
+msgstr ""
+
+#: /shortcuts/moviehubmenu.DATA.xml
+msgctxt "#31802"
+msgid "Movie Categories"
+msgstr ""
+
+#: /shortcuts/moviehubmenu.DATA.xml
+msgctxt "#31803"
+msgid "Movie Aura Hub"
+msgstr ""
+
+#: /shortcuts/moviehubmenu.DATA.xml
+msgctxt "#31804"
+msgid "Movie Netflix Hub"
+msgstr ""
+
+#: /shortcuts/movies.DATA.xml
+msgctxt "#31805"
+msgid "Movie Lists"
+msgstr ""
+
+#: /shortcuts/movies.DATA.xml
+msgctxt "#31806"
+msgid "Genres Hub"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31807"
+msgid "TMDB Movies"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31808"
+msgid "TMDB TV Shows"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31809"
+msgid "Seren Movies"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31810"
+msgid "Seren TV Shows"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31811"
+msgid "Fen Movies"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31812"
+msgid "Fen TV Shows"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31813"
+msgid "Venom Movies"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31814"
+msgid "Venom TV Shows"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31816"
+msgid "Library Movies"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31817"
+msgid "Library TV Shows"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31818"
+msgid "Library Episodes"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31819"
+msgid "Library Genres"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31820"
+msgid "Library Year"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31821"
+msgid "Library Studio"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31822"
+msgid "Library Country"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31823"
+msgid "Library Actor"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31824"
+msgid "Music Videos"
+msgstr ""
+
+#: /shortcuts/searchmenus.DATA.xml
+msgctxt "#31825"
+msgid "Music Video Artists"
+msgstr ""
+
+#: /shortcuts/tvhubmenu.DATA.xml
+msgctxt "#31826"
+msgid "TV Categories"
+msgstr ""
+
+#: /shortcuts/tvhubmenu.DATA.xml
+msgctxt "#31827"
+msgid "TV Aura Hub"
+msgstr ""
+
+#: /shortcuts/tvhubmenu.DATA.xml
+msgctxt "#31828"
+msgid "TV Netflix Hub"
+msgstr ""
+
+#: /shortcuts/tvshows.DATA.xml
+msgctxt "#31829"
+msgid "TV Lists"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31830"
+msgid "Media Hub"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31831"
+msgid "Academy Awards - Best Picture Winners"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31832"
+msgid "Rotten Tomatoes: Best of 2018"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31833"
+msgid "2018 - Golden Globe Nominees & Winners"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31834"
+msgid "2018 - Oscar Nominees & Winners"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31835"
+msgid "IMDB: Top Rated Movies"
+msgstr ""
+
+#: /shortcuts/x1101.DATA.xml
+msgctxt "#31836"
+msgid "Reddit Top 250 (2018 Edition)"
+msgstr ""
+
+#: /shortcuts/x1103.DATA.xml
+msgctxt "#31837"
+msgid "IMDB: Top Rated TV Shows"
+msgstr ""
+
+#: /shortcuts/x1103.DATA.xml
+msgctxt "#31838"
+msgid "Rolling Stone's 100 Greatest TV Shows of All Time"
+msgstr ""
+
+#: /shortcuts/x1103.DATA.xml
+msgctxt "#31839"
+msgid "Most Popular"
+msgstr ""
+
+#: /shortcuts/x1103.DATA.xml
+msgctxt "#31840"
+msgid "TV Shows 2018 ➛ Scripted (USA)"
+msgstr ""
+
+#: /shortcuts/x1103.DATA.xml
+msgctxt "#31841"
+msgid "TV Shows 2018 ➛ Scripted (UK)"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31842"
+msgid "Action"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31843"
+msgid "Animation"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31844"
+msgid "Anime"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31845"
+msgid "Comedy"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31846"
+msgid "Crime"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31847"
+msgid "Documentary"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31848"
+msgid "Drama"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31849"
+msgid "Family"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31850"
+msgid "History"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31851"
+msgid "Horror"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31852"
+msgid "Mystery"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31853"
+msgid "Romance"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31854"
+msgid "Science Fiction"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31855"
+msgid "Superhero"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31856"
+msgid "Thriller"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1108.DATA.xml
+msgctxt "#31857"
+msgid "War"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1109.DATA.xml
+msgctxt "#31858"
+msgid "Game Show"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1109.DATA.xml
+msgctxt "#31859"
+msgid "Home and Garden"
+msgstr ""
+
+#. Context: Genres
+#: /shortcuts/x1109.DATA.xml
+msgctxt "#31860"
+msgid "Reality"
+msgstr ""
