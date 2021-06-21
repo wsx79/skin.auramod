@@ -1027,7 +1027,12 @@
     </variable>
 
     <variable name="Label_Info_NextAired_Status">
-        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status))">$INFO[Window(Home).Property(TMDBHelper.ListItem.Status)]</value>
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status)) + String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.Status),Returning Series)">$LOCALIZE[31861]</value> <!-- Returning Series -->
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status)) + String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.Status),Planned)">$LOCALIZE[31862]</value> <!-- Planned -->
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status)) + String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.Status),In Production)">$LOCALIZE[31863]</value> <!-- In Production -->
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status)) + String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.Status),Ended)">$LOCALIZE[31864]</value> <!-- Ended -->
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status)) + String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.Status),Canceled)">$LOCALIZE[31865]</value> <!-- Canceled -->
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Status)) + String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.Status),Pilot)">$LOCALIZE[31866]</value> <!-- Pilot -->
     </variable>
 
     <variable name="Label_Info_NextAired_Details">

@@ -4183,3 +4183,33 @@ msgstr "Casa e giardino"
 msgctxt "#31860"
 msgid "Reality"
 msgstr ""
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31861"
+msgid "Returning Series"
+msgstr "Serie rinnovata"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31862"
+msgid "Planned"
+msgstr "Programmata"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31863"
+msgid "In Production"
+msgstr "In produzione"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31864"
+msgid "Ended"
+msgstr "Terminata"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31865"
+msgid "Canceled"
+msgstr "Cancellata"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31866"
+msgid "Pilot"
+msgstr "Pilota"
