@@ -2040,7 +2040,7 @@ msgstr "Beoordelingen op widgetbalk inschakelen"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31427"
-msgid "Enable Title  on Widget Bar"
+msgid "Enable Title on Widget Bar"
 msgstr "Titel op widgetbalk inschakelen"
 
 #: /1080i/SkinSettings.xml

@@ -2039,7 +2039,7 @@ msgstr "Habilitar Avaliações na Barra de Widgets"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31427"
-msgid "Enable Title  on Widget Bar"
+msgid "Enable Title on Widget Bar"
 msgstr "Habilitar Títulos na Barra de Widgets"
 
 #: /1080i/SkinSettings.xml
