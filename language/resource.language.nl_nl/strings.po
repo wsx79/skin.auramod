@@ -299,7 +299,7 @@ msgstr "Genre kleuren in PVR-gids"
 #: /1080i/SkinSettings.xml
 msgctxt "#31057"
 msgid "Use fullscreen PVR guide (hide plot info)"
-msgstr "Gebruik de PVR-gids op volledig scherm (verberg plotinformatie) ""
+msgstr "Gebruik de PVR-gids op volledig scherm (verberg plotinformatie)"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31058"
@@ -414,7 +414,7 @@ msgstr "Pauzeer video bij het openen van uitgebreide informatie"
 #: /1080i/SkinSettings.xml
 msgctxt "#31080"
 msgid "Artwork button downloads all available artwork (as specified in artwork downloader settings)"
-msgstr "Artwork knop download alle beschikbare artwork (zoals gespecificeerd in de instellingen van de artwork-downloader) ""
+msgstr "Artwork knop download alle beschikbare artwork (zoals gespecificeerd in de instellingen van de artwork-downloader)"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31081"

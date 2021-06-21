@@ -1107,7 +1107,7 @@ msgstr "Personalice sus perfiles de usuario y active/desactive la pantalla de in
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31235"
 msgid "Set sorting (default$COMMA year$COMMA rating$COMMA lastplayed$COMMA dateadded$COMMA etc.)"
-msgstr "Elegir orden (default$COMMA year$COMMA rating$COMMA lastplayed$COMMA dateadded$COMMA etc.)""
+msgstr "Elegir orden (default$COMMA year$COMMA rating$COMMA lastplayed$COMMA dateadded$COMMA etc.)"
 
 msgctxt "#31236"
 msgid "Now playing..."
