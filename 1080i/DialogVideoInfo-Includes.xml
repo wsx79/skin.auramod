@@ -1844,7 +1844,7 @@
 				<left>30</left>
 				<right>10</right>
 				<itemgap>60</itemgap>
-				<visible>String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694]))</visible> <!-- More Info -->
+				<visible>String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])</visible> <!-- More Info -->
 				<animation effect="fade" start="0" end="100" time="50">VisibleChange</animation><!-- Necessary to avoid Control buttons overlapping -->
 				
 				<control type="textbox">
