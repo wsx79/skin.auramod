@@ -2193,7 +2193,7 @@ msgstr "Abilita widget categorie su più righe"
 #: /1080i/SkinSettings.xml
 msgctxt "#31458"
 msgid "Enable Clearlogos on Widgets"
-msgstr "Abilita Clearlogos sui widget"
+msgstr "Abilita Clearlogo sui widget"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31459"
@@ -2763,7 +2763,7 @@ msgstr "Abilita l'etichetta 'Categorie' sulla WidgetBar"
 #: /1080i/SkinSettings.xml
 msgctxt "#31573"
 msgid "Detatch Home Widgets from Main Menu"
-msgstr "Scollega Honme Widget dal menu principale"
+msgstr "Scollega Home Widget dal menu principale"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31574"
@@ -2808,7 +2808,7 @@ msgstr "Utilizza l'icona del canale sul Widget Live TV"
 #: /1080i/SkinSettings.xml
 msgctxt "#31582"
 msgid "use ClearLogo instead of ClearArt"
-msgstr "Utilizza il ClearLogo invece del ClearArt"
+msgstr "Utilizza ClearLogo invece del ClearArt"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31583"
