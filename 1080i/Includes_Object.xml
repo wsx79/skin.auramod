@@ -6117,7 +6117,6 @@
             </control>
             <!-- Aired -->
             <control type="label">
-              <width>195</width>
               <label>$LOCALIZE[31789]: $INFO[ListItem.Premiered(dd MMM yyyy)]</label> <!-- Aired -->
               <textcolor>$VAR[ColorHighlight2]</textcolor>
               <font>font_tiny_bold</font>
