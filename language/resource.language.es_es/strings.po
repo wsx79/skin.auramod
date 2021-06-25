@@ -152,7 +152,7 @@ msgstr "Personalizar menú de apagado"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31028"
-msgid "Reset the skin settings to the default values ​​(WARNING: This will reset your start menu to the default skin values)"
+msgid "Reset skin settings to defaults (WARNING: This will reset your home menu to skin defaults)"
 msgstr "Restablezca la configuración de skin a los valores predeterminados (ADVERTENCIA: Esto restablecerá su menú de inicio a los valores predeterminados de skin)"
 
 #: /1080i/script-nextup-notification-PostPlayInfo.xml
