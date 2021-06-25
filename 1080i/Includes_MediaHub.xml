@@ -456,14 +456,14 @@
                       <visible>String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,season) | String.IsEqual(ListItem.DBType,tvshow)</visible>
                       <control type="label">
                         <top>-90</top>
-                        <label>$VAR[date_aired] Length: [/COLOR][B]$VAR[Label_Duration][/B][COLOR=$VAR[ColorHighlight]] Ends: [/COLOR][B]$INFO[ListItem.EndTime][/B]</label>
+                        <label>$VAR[date_aired] $LOCALIZE[31792]: [/COLOR][B]$VAR[Label_Duration][/B][COLOR=$VAR[ColorHighlight]] $LOCALIZE[31748]: [/COLOR][B]$INFO[ListItem.EndTime][/B]</label> <!-- Length DURATION Ends ENDTIME -->
                         <width>650</width>
                         <textcolor>grey</textcolor>
                         <font>font_small</font>
                       </control>
                       <control type="label">
                         <top>-10</top>
-                        <label>[COLOR=$VAR[ColorHighlight]]Genre: [/COLOR]$INFO[ListItem.Genre]</label>
+                        <label>[COLOR=$VAR[ColorHighlight]]$LOCALIZE[31497]: [/COLOR]$INFO[ListItem.Genre]</label> <!-- Genre -->
                         <width>650</width>
                         <textcolor>grey</textcolor>
                         <font>font_small</font>

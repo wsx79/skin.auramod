@@ -2078,7 +2078,7 @@ msgstr "Habilitar solo Menu lateral de icono"
 
 msgctxt "#31435"
 msgid "AuraMod"
-msgstr "AuraMod"
+msgstr ""
 
 msgctxt "#31436"
 msgid "PVR"
@@ -4300,3 +4300,18 @@ msgstr "Clasificado"
 msgctxt "#31881"
 msgid "in IMDB Top 250"
 msgstr "en el Top 250 de IMBD"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31882"
+msgid "Season Premiere"
+msgstr ""
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31883"
+msgid "Continue"
+msgstr ""
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31884"
+msgid "Episode"
+msgstr ""

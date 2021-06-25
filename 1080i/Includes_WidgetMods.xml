@@ -302,7 +302,7 @@
           <bottom>5</bottom>
           <align>center</align>
           <height>25</height>
-          <label>$LOCALIZE[31750] $INFO[ListItem.Season] Episode $INFO[ListItem.Episode]</label> <!-- Season -->
+          <label>$LOCALIZE[31750] $INFO[ListItem.Season] $LOCALIZE[31884] $INFO[ListItem.Episode]</label> <!-- Season SEASON Episode EPISODE -->
           <textcolor>white</textcolor>
           <font>font_widget_plot</font>
         </control>
@@ -860,7 +860,7 @@
             <aligny>center</aligny>
             <font>font_tiny_bold</font>
             <textcolor>main_fg_70</textcolor>
-            <label>[B]$INFO[ListItem.Season,Season , ]$INFO[ListItem.Episode,Episode , ][/B]</label>
+            <label>[B]$INFO[ListItem.Season,$LOCALIZE[31750] , ]$INFO[ListItem.Episode,$LOCALIZE[31884] , ][/B]</label> <!-- Season SEASON Episode EPISODE -->
           </control>
         </control>
       </control>

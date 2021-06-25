@@ -13,8 +13,8 @@
     </variable>
 
     <variable name="landscapewideprogress">
-	<value condition="String.IsEqual(ListItem.DBType,episode)">Watch S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</value>
-	<value condition="String.IsEqual(ListItem.DBType,movie)">Continue</value>
+	<value condition="String.IsEqual(ListItem.DBType,episode)">$LOCALIZE[31749] S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</value> <!-- Watch -->
+	<value condition="String.IsEqual(ListItem.DBType,movie)">$LOCALIZE[31883]</value> <!-- Continue -->
     </variable>
 
     <variable name="weatherbar_playing">
@@ -997,8 +997,8 @@
         <value condition="Control.IsVisible(1506) + !String.IsEmpty(Container(1506).ListItem.Label)">$INFO[Container(1506).ListItem.Label]</value>
     </variable>
     <variable name="date_aired">
-        <value condition="String.IsEqual(ListItem.DBType,episode)">[COLOR=$VAR[ColorHighlight]]Aired: [/COLOR][B]$INFO[ListItem.Premiered(dd MMM yyyy)][COLOR=$VAR[ColorHighlight]][/B]</value>
-        <value>[COLOR=$VAR[ColorHighlight]]Year: [/COLOR][B]$INFO[ListItem.Year][COLOR=$VAR[ColorHighlight]][/B]</value>
+        <value condition="String.IsEqual(ListItem.DBType,episode)">[COLOR=$VAR[ColorHighlight]]$LOCALIZE[31789]: [/COLOR][B]$INFO[ListItem.Premiered(dd MMM yyyy)][COLOR=$VAR[ColorHighlight]][/B]</value> <!-- Aired -->
+        <value>[COLOR=$VAR[ColorHighlight]]$LOCALIZE[31486]: [/COLOR][B]$INFO[ListItem.Year][COLOR=$VAR[ColorHighlight]][/B]</value> <!-- Year -->
     </variable>
     <variable name="simple_date_aired">
         <value condition="String.IsEqual(ListItem.DBType,episode)">[B]$INFO[ListItem.Premiered(dd MMM yyyy)][/B]</value>
@@ -1276,16 +1276,16 @@
 
    <variable name="infoline_duration">
 	<value condition="String.Contains(ListItem.FolderPath,plugin://plugin.video.youtube) + String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration]</value>
-	<value condition="!String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration(h),,h] $INFO[ListItem.Duration(mm),,m]</value>
-	<value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration))">$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Hours),,h] $INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Minutes),,m]</value>
+	<value condition="!String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[ListItem.Duration(mm),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
+	<value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration))">$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Hours),,$LOCALIZE[31036]] $INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Minutes),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
    </variable>
 
     <variable name="infoview_duration">
-        <value condition="!String.IsEmpty(Container.ListItem.Duration)">$INFO[Container.ListItem.Duration(h),,h] $INFO[Container.ListItem.Duration(mm),,m]</value>
-        <value condition="Control.IsVisible(1506) + !String.IsEmpty(Container(1506).ListItem.Duration)">$INFO[Container(1506).ListItem.Duration(h),,h] $INFO[Container(1506).ListItem.Duration(mm),,m]</value>
-        <value condition="!String.IsEmpty(Container(5055).ListItem.Duration)">$INFO[Container(5055).ListItem.Duration(h),,h] $INFO[Container(5055).ListItem.Duration(mm),,m]</value>
-        <value condition="!String.IsEmpty(Container(5056).ListItem.Duration)">$INFO[Container(5056).ListItem.Duration(h),,h] $INFO[Container(5056).ListItem.Duration(mm),,m]</value>
-        <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration))">$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Hours),,h] $INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Minutes),,m]</value>
+        <value condition="!String.IsEmpty(Container.ListItem.Duration)">$INFO[Container.ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container.ListItem.Duration(mm),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
+        <value condition="Control.IsVisible(1506) + !String.IsEmpty(Container(1506).ListItem.Duration)">$INFO[Container(1506).ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container(1506).ListItem.Duration(mm),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
+        <value condition="!String.IsEmpty(Container(5055).ListItem.Duration)">$INFO[Container(5055).ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container(5055).ListItem.Duration(mm),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
+        <value condition="!String.IsEmpty(Container(5056).ListItem.Duration)">$INFO[Container(5056).ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container(5056).ListItem.Duration(mm),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
+        <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration))">$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Hours),,$LOCALIZE[31036]] $INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Minutes),,$LOCALIZE[31020]]</value> <!-- DURATION(hours) h DURATION(minutes) m -->
     </variable>
 
 
@@ -1520,8 +1520,8 @@
     </variable>
 
     <variable name="AiredOnDay">
-	<value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Premiered)) + !String.IsEmpty(ListItem.Premiered)">Aired $INFO[Window(Home).Property(TMDBHelper.ListItem.Premiered)] $INFO[ListItem.Premiered(DDD MMM yyyy),, on]</value>
-	<value>Aired $INFO[ListItem.Premiered(DDD MMM yyyy), on , ]</value>
+	<value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Premiered)) + !String.IsEmpty(ListItem.Premiered)">$LOCALIZE[31789] $INFO[Window(Home).Property(TMDBHelper.ListItem.Premiered)] $INFO[ListItem.Premiered(DDD MMM yyyy),, $LOCALIZE[31282]]</value> <!-- Aired DATE on DAY -->
+	<value>$LOCALIZE[31789] $INFO[ListItem.Premiered(DDD MMM yyyy), $LOCALIZE[31282] , ]</value> <!-- Aired on DAY -->
     </variable>
     <variable name="Label_Tagline">
         <value condition="!String.IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
@@ -1540,22 +1540,22 @@
         <value condition="!String.IsEmpty(ListItem.Property(Album_Description))">$INFO[ListItem.Property(Album_Description)]</value>
         <value condition="!String.IsEmpty(ListItem.AddonDescription)">$INFO[ListItem.AddonDescription]</value>
         <value condition="String.IsEqual(ListItem.DBType,episode)">$VAR[videoinfo_play_label]</value>
-        <value condition="String.IsEqual(ListItem.DBType,episode) + String.IsEqual(ListItem.Episode,1)">[I][COLOR=green]Season Premiere[/COLOR] $INFO[ListItem.Season, S,: ]$INFO[ListItem.Episode,E, ][/I]</value>
-        <value condition="String.IsEqual(ListItem.DBType,season)">$INFO[ListItem.Season,Season , ]</value>
+        <value condition="String.IsEqual(ListItem.DBType,episode) + String.IsEqual(ListItem.Episode,1)">[I][COLOR=green]$LOCALIZE[31882][/COLOR] $INFO[ListItem.Season, S,: ]$INFO[ListItem.Episode,E, ][/I]</value> <!-- Season Premiere -->
+        <value condition="String.IsEqual(ListItem.DBType,season)">$INFO[ListItem.Season,$LOCALIZE[31750] , ]</value> <!-- Season -->
 
 <!--        <value condition="!Control.HasFocus(55) + !Control.HasFocus(56) + String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.NextEpisode.Airdate.long))">[I]New Episode on $INFO[Window(Home).Property(SkinHelper.ListItem.NextEpisode.Airdate.long)][/I]</value> -->
 
-        <value condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.Property(TotalSeasons))">[I]Watch Season $INFO[ListItem.Property(TotalSeasons)] Now[/I]</value>
+        <value condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.Property(TotalSeasons))">[I]$LOCALIZE[31749] $LOCALIZE[31750] $INFO[ListItem.Property(TotalSeasons)] $LOCALIZE[31745][/I]</value> <!-- Watch Season SEASON Now -->
 
-        <value condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Network.1.Name))">[I]$INFO[ListItem.Year,Premiered  , ] $VAR[studios_var][/I]</value>
+        <value condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Network.1.Name))">[I]$INFO[ListItem.Year,$LOCALIZE[31751]  , ] $VAR[studios_var][/I]</value> <!-- Premiered DATE on NETWORK -->
 
-        <value condition="String.IsEqual(ListItem.DBType,tvshow)">[I]$INFO[ListItem.Year,Premiered  , ] $INFO[Window(Home).Property(TMDBHelper.ListItem.Studio),on , ][/I]</value>
+        <value condition="String.IsEqual(ListItem.DBType,tvshow)">[I]$INFO[ListItem.Year,$LOCALIZE[31751]  , ] $INFO[Window(Home).Property(TMDBHelper.ListItem.Studio),$LOCALIZE[31282] , ][/I]</value> <!-- Premiered DATE on STUDIO -->
 
     </variable>
 
     <variable name="studios_var">
-        <value condition="!String.Contains(ListItem.FolderPath,plugin.video.themoviedb.helper)">$INFO[Window(Home).Property(TMDbHelper.ListItem.Network.1.Name),on , ]</value>
-        <value condition="String.Contains(ListItem.FolderPath,plugin.video.themoviedb.helper)">$INFO[ListItem.Property(Network.1.Name),on , ]</value>
+        <value condition="!String.Contains(ListItem.FolderPath,plugin.video.themoviedb.helper)">$INFO[Window(Home).Property(TMDbHelper.ListItem.Network.1.Name),$LOCALIZE[31282] , ]</value> <!-- on NETWORK -->
+        <value condition="String.Contains(ListItem.FolderPath,plugin.video.themoviedb.helper)">$INFO[ListItem.Property(Network.1.Name),$LOCALIZE[31282] , ]</value> <!-- on NETWORK -->
     </variable>
 
     <variable name="Label_Netflix_Tagline_1505">
@@ -1566,17 +1566,17 @@
         <value condition="!String.IsEmpty(Container(1505).ListItem.Property(Album_Description))">$INFO[Container(1505).ListItem.Property(Album_Description)]</value>
         <value condition="!String.IsEmpty(Container(1505).ListItem.AddonDescription)">$INFO[Container(1505).ListItem.AddonDescription]</value>
         <value condition="String.IsEqual(Container(1505).ListItem.DBType,episode)">$VAR[videoinfo_play_label_1505]</value>
-        <value condition="String.IsEqual(Container(1505).ListItem.DBType,episode) + String.IsEqual(ListItem.Episode,1)">[I][COLOR=green]Season Premiere[/COLOR] $INFO[ListItem.Season, S,: ]$INFO[ListItem.Episode,E, ][/I]</value>
+        <value condition="String.IsEqual(Container(1505).ListItem.DBType,episode) + String.IsEqual(ListItem.Episode,1)">[I][COLOR=green]$LOCALIZE[31882][/COLOR] $INFO[ListItem.Season, S,: ]$INFO[ListItem.Episode,E, ][/I]</value> <!-- Season Premiere -->
 
-        <value condition="String.IsEqual(Container(1505).ListItem.DBType,season)">$INFO[Container(1505).ListItem.Season,Season , ]</value>
+        <value condition="String.IsEqual(Container(1505).ListItem.DBType,season)">$INFO[Container(1505).ListItem.Season,$LOCALIZE[31750] , ]</value> <!-- Season -->
 
 <!--        <value condition="!Control.HasFocus(55) + !Control.HasFocus(56) + String.IsEqual(Container(1505).ListItem.DBType,tvshow) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.NextEpisode.Airdate.long))">[I]New Episode on $INFO[Window(Home).Property(SkinHelper.ListItem.NextEpisode.Airdate.long)][/I]</value> -->
 
-        <value condition="String.IsEqual(Container(1505).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1505).ListItem.Property(TotalSeasons))">[I]Watch Season $INFO[Container(1505).ListItem.Property(TotalSeasons)] Now[/I]</value>
+        <value condition="String.IsEqual(Container(1505).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1505).ListItem.Property(TotalSeasons))">[I]$LOCALIZE[31749] $LOCALIZE[31750] $INFO[Container(1505).ListItem.Property(TotalSeasons)] $LOCALIZE[31745][/I]</value> <!-- Watch Season SEASON Now -->
 
-        <value condition="String.IsEqual(Container(1505).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1505).ListItem.Studio)">[I]$INFO[Container(1505).ListItem.Year,Premiered  , ] $INFO[Container(1505).ListItem.Studio,on , ][/I]</value>
+        <value condition="String.IsEqual(Container(1505).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1505).ListItem.Studio)">[I]$INFO[Container(1505).ListItem.Year,$LOCALIZE[31751]  , ] $INFO[Container(1505).ListItem.Studio,$LOCALIZE[31282] , ][/I]</value> <!-- Premiered DATE on STUDIO -->
 
-        <value condition="String.IsEqual(Container(1505).ListItem.DBType,tvshow)">[I]$INFO[Container(1505).ListItem.Year,Premiered  , ] $INFO[Window(Home).Property(TMDBHelper.ListItem.Studio),on , ][/I]</value>
+        <value condition="String.IsEqual(Container(1505).ListItem.DBType,tvshow)">[I]$INFO[Container(1505).ListItem.Year,$LOCALIZE[31751]  , ] $INFO[Window(Home).Property(TMDBHelper.ListItem.Studio),$LOCALIZE[31282] , ][/I]</value> <!-- Premiered DATE on STUDIO -->
     </variable>
 
     <variable name="Label_Netflix_Tagline_1506">
@@ -1587,17 +1587,17 @@
         <value condition="!String.IsEmpty(Container(1506).ListItem.Property(Album_Description))">$INFO[Container(1506).ListItem.Property(Album_Description)]</value>
         <value condition="!String.IsEmpty(Container(1506).ListItem.AddonDescription)">$INFO[Container(1506).ListItem.AddonDescription]</value>
         <value condition="String.IsEqual(Container(1506).ListItem.DBType,episode)">$VAR[videoinfo_play_label_1506]</value>
-        <value condition="String.IsEqual(Container(1506).ListItem.DBType,episode) + String.IsEqual(ListItem.Episode,1)">[I][COLOR=green]Season Premiere[/COLOR] $INFO[ListItem.Season, S,: ]$INFO[ListItem.Episode,E, ][/I]</value>
+        <value condition="String.IsEqual(Container(1506).ListItem.DBType,episode) + String.IsEqual(ListItem.Episode,1)">[I][COLOR=green]$LOCALIZE[31882][/COLOR] $INFO[ListItem.Season, S,: ]$INFO[ListItem.Episode,E, ][/I]</value> <!-- Season Premiere -->
 
-        <value condition="String.IsEqual(Container(1506).ListItem.DBType,season)">$INFO[Container(1506).ListItem.Season,Season , ]</value>
+        <value condition="String.IsEqual(Container(1506).ListItem.DBType,season)">$INFO[Container(1506).ListItem.Season,$LOCALIZE[31750] , ]</value> <!-- Season -->
 
 <!--        <value condition="!Control.HasFocus(55) + !Control.HasFocus(56) + String.IsEqual(Container(1506).ListItem.DBType,tvshow) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.NextEpisode.Airdate.long))">[I]New Episode on $INFO[Window(Home).Property(SkinHelper.ListItem.NextEpisode.Airdate.long)][/I]</value> -->
 
-        <value condition="String.IsEqual(Container(1506).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1506).ListItem.Property(TotalSeasons))">[I]Watch Season $INFO[Container(1506).ListItem.Property(TotalSeasons)] Now[/I]</value>
+        <value condition="String.IsEqual(Container(1506).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1506).ListItem.Property(TotalSeasons))">[I]$LOCALIZE[31749] $LOCALIZE[31750] $INFO[Container(1506).ListItem.Property(TotalSeasons)] $LOCALIZE[31745][/I]</value> <!-- Watch Season SEASON Now -->
 
-        <value condition="String.IsEqual(Container(1506).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1506).ListItem.Studio)">[I]$INFO[Container(1506).ListItem.Year,Premiered  , ] $INFO[Container(1506).ListItem.Studio,on , ][/I]</value>
+        <value condition="String.IsEqual(Container(1506).ListItem.DBType,tvshow) + !String.IsEmpty(Container(1506).ListItem.Studio)">[I]$INFO[Container(1506).ListItem.Year,$LOCALIZE[31751]  , ] $INFO[Container(1506).ListItem.Studio,$LOCALIZE[31282] , ][/I]</value> <!-- Premiered DATE on STUDIO -->
 
-        <value condition="String.IsEqual(Container(1506).ListItem.DBType,tvshow)">[I]$INFO[Container(1506).ListItem.Year,Premiered  , ] $INFO[Window(Home).Property(TMDBHelper.ListItem.Studio),on , ][/I]</value>
+        <value condition="String.IsEqual(Container(1506).ListItem.DBType,tvshow)">[I]$INFO[Container(1506).ListItem.Year,$LOCALIZE[31751]  , ] $INFO[Window(Home).Property(TMDBHelper.ListItem.Studio),$LOCALIZE[31282] , ][/I]</value> <!-- Premiered DATE on STUDIO -->
     </variable>
 
 

@@ -320,7 +320,7 @@
         <height>70</height>
         <textoffsetx>15</textoffsetx>
         <align>left</align>
-        <label>Season $INFO[ListItem.Season]</label>
+        <label>$LOCALIZE[31750] $INFO[ListItem.Season]</label> <!-- Season -->
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <font>font_tiny_bold</font>
@@ -1536,7 +1536,7 @@
           <visible>Integer.IsEqual(ListItem.PercentPlayed,0) + String.IsEqual(ListItem.DBType,episode) + !Skin.HasSetting(EnableFullEpInfo)</visible>
           <control type="label">
             <width>450</width>
-            <label>Aired $INFO[ListItem.Premiered(DDD MMM yyyy)] on</label>
+            <label>$LOCALIZE[31789] $INFO[ListItem.Premiered(DDD MMM yyyy)] $LOCALIZE[31282]</label> <!-- Aired DAY on -->
             <textcolor>grey</textcolor>
             <shadowcolor>black</shadowcolor>
             <font>font_small</font>
@@ -5945,7 +5945,7 @@
                 <font>widget_trakt_title2</font>
                 <textcolor>white</textcolor>
                 <scroll>false</scroll>
-                <label>$INFO[Container($PARAM[id]).ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container($PARAM[id]).ListItem.Duration(mm),,$LOCALIZE[31020]]</label> <!-- Duration h HOURS Duration m MINUTES -->
+                <label>$INFO[Container($PARAM[id]).ListItem.Duration(h),,$LOCALIZE[31036]] $INFO[Container($PARAM[id]).ListItem.Duration(mm),,$LOCALIZE[31020]]</label> <!-- DURATION(hours) h DURATION(minutes) m -->
               </control>
             </control>
             <!-- Season Count -->
