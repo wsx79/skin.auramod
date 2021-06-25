@@ -31,6 +31,47 @@
 	<value>$INFO[ListItem.Label]</value>
     </variable>
 
+    <variable name="localized_awards">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins))">$VAR[localized_award_string_nominated_or_won]$INFO[Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)]$VAR[localized_award_string_oscars] $VAR[localized_award_string_another]$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Wins)]$VAR[localized_award_string_wins] &amp; $INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)]$VAR[localized_award_string_nominations]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins))">$VAR[localized_award_string_nominated_or_won]$INFO[Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)]$VAR[localized_award_string_emmys] $VAR[localized_award_string_another]$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Wins)]$VAR[localized_award_string_wins] &amp; $INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)]$VAR[localized_award_string_nominations]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins))">$VAR[localized_award_string_nominated_or_won]$INFO[Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)]$VAR[localized_award_string_oscars] $VAR[localized_award_string_another]$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Wins)]$VAR[localized_award_string_wins] &amp; $INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)]$VAR[localized_award_string_nominations]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins))">$VAR[localized_award_string_nominated_or_won]$INFO[Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins)]$VAR[localized_award_string_emmys] $VAR[localized_award_string_another]$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Wins)]$VAR[localized_award_string_wins] &amp; $INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)]$VAR[localized_award_string_nominations]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Wins)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations))">$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Wins)]$VAR[localized_award_string_wins] &amp; $INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)]$VAR[localized_award_string_nominations]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Wins)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations))">$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Wins)]$VAR[localized_award_string_wins]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Wins)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations))">$INFO[Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)]$VAR[localized_award_string_nominations]</value>
+    </variable>
+
+    <variable name="localized_award_string_nominated_or_won">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + [!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) | !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins))]">$LOCALIZE[31867] </value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + [String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) | String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins))]">$LOCALIZE[31868] </value>
+    </variable>
+
+    <variable name="localized_award_string_another">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.Contains(Window(Home).Property(TMDbHelper.ListItem.Awards),Another)">$LOCALIZE[31869] </value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.Contains(Window(Home).Property(TMDbHelper.ListItem.Awards),Another)"></value>
+    </variable>
+
+    <variable name="localized_award_string_wins">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Wins)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Award_Wins),1)"> $LOCALIZE[31870]</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Wins)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Award_Wins),1)"> $LOCALIZE[31871]</value>
+    </variable>
+
+    <variable name="localized_award_string_nominations">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations),1) + String.EndsWith(Window(Home).Property(TMDbHelper.ListItem.Awards),total)"> $LOCALIZE[31872] $LOCALIZE[31874].</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations),1) + String.EndsWith(Window(Home).Property(TMDbHelper.ListItem.Awards),total)"> $LOCALIZE[31873] $LOCALIZE[31874].</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations),1) + !String.EndsWith(Window(Home).Property(TMDbHelper.ListItem.Awards),total)"> $LOCALIZE[31872].</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Award_Nominations),1) + !String.EndsWith(Window(Home).Property(TMDbHelper.ListItem.Awards),total)"> $LOCALIZE[31873].</value>
+    </variable>
+
+    <variable name="localized_award_string_oscars">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins),1) | !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations),1)"> $LOCALIZE[31875].</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Oscar_Wins),1) | !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Oscar_Nominations),1)"> $LOCALIZE[31876].</value>
+    </variable>
+
+    <variable name="localized_award_string_emmys">
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins),1) | !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations),1)"> $LOCALIZE[31877].</value>
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Emmy_Wins),1) | !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + !String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations)) + !Integer.IsGreater(Window(Home).Property(TMDbHelper.ListItem.Emmy_Nominations),1)"> $LOCALIZE[31878].</value>
+    </variable>
 
     <variable name="metacritic_rating">
         <value condition="!String.IsEmpty(ListItem.Property(Metacritic_Rating))">$INFO[ListItem.Property(Metacritic_Rating), ,% ]</value>
@@ -88,7 +129,7 @@
 
     <variable name="videoinfo_awards">
          <value condition="!String.IsEmpty(ListItem.Property(awards))">$INFO[ListItem.Property(awards)]</value>
-         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$INFO[Window(Home).Property(TMDbHelper.ListItem.Awards)]</value> <!-- More Info -->
+         <value condition="!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Awards)) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31694])">$VAR[localized_awards]</value> <!-- More Info -->
     </variable>
 
     <variable name="videoinfo_boxoffice">
@@ -846,8 +887,8 @@
 
    <!-- Spotlight buttons @cartmandos -->
     <variable name="NetflixDetailsSpin">
-        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Awards)) + Integer.IsLessOrEqual(System.Time(ss),15) + !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Awards))">[I]$INFO[Window(Home).Property(TMDBHelper.ListItem.Awards)][/I]</value>
-        <value condition="Integer.IsLessOrEqual(System.Time(ss),15) + !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Awards))">[I]$INFO[Window(Home).Property(TMDBHelper.ListItem.Awards)][/I]</value>
+        <value condition="!String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Awards)) + Integer.IsLessOrEqual(System.Time(ss),15) + !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Awards))">[I]$VAR[localized_awards][/I]</value>
+        <value condition="Integer.IsLessOrEqual(System.Time(ss),15) + !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Awards))">[I]$VAR[localized_awards][/I]</value>
         <value condition="Integer.IsLessOrEqual(System.Time(ss),30) + !String.IsEmpty(Window(Home).Property(TMDBHelper.ListItem.Cast))">[I]Starring $INFO[Window(Home).Property(TMDBHelper.ListItem.Cast)][/I]</value>
         <value condition="Integer.IsGreater(System.Time(ss),15) + Integer.IsLessOrEqual(System.Time(ss),30) + Integer.IsGreater(Window(Home).Property(TMDBHelper.ListItem.Top250),0)">[I]Ranked $INFO[Window(Home).Property(TMDBHelper.ListItem.Top250)] in IMDB Top 250[/I]</value>
         <value condition="Integer.IsGreater(System.Time(ss),15) + Integer.IsLessOrEqual(System.Time(ss),30) + !String.IsEmpty(ListItem.Director)">[I]Directed by $INFO[ListItem.Director][/I]</value>

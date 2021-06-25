@@ -4212,3 +4212,73 @@ msgstr ""
 msgctxt "#31866"
 msgid "Pilot"
 msgstr ""
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31867"
+msgid "Nominated for"
+msgstr ""
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31868"
+msgid "Won"
+msgstr ""
+
+#. Context: Further wins
+#: /1080i/Includes_Labels.xml
+msgctxt "#31869"
+msgid "Another"
+msgstr ""
+
+#. Context: More than one win
+#: /1080i/Includes_Labels.xml
+msgctxt "#31870"
+msgid "wins"
+msgstr ""
+
+#. Context: Only one win
+#: /1080i/Includes_Labels.xml
+msgctxt "#31871"
+msgid "win"
+msgstr ""
+
+#. Context: More than one nomination
+#: /1080i/Includes_Labels.xml
+msgctxt "#31872"
+msgid "nominations"
+msgstr ""
+
+#. Context: Only one nomination
+#: /1080i/Includes_Labels.xml
+msgctxt "#31873"
+msgid "nomination"
+msgstr ""
+
+#. Context: Awards in total
+#: /1080i/Includes_Labels.xml
+msgctxt "#31874"
+msgid "total"
+msgstr ""
+
+#. Context: More than one Oscar won
+#: /1080i/Includes_Labels.xml
+msgctxt "#31875"
+msgid "Oscars"
+msgstr ""
+
+#. Context: Only one Oscar won
+#: /1080i/Includes_Labels.xml
+msgctxt "#31876"
+msgid "Oscar"
+msgstr ""
+
+#. Context: More than one Emmy won
+#: /1080i/Includes_Labels.xml
+msgctxt "#31877"
+msgid "Primetime Emmys"
+msgstr ""
+
+#. Context: Only one Emmy won
+#: /1080i/Includes_Labels.xml
+msgctxt "#31878"
+msgid "Primetime Emmy"
+msgstr ""
