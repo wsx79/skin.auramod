@@ -232,11 +232,11 @@
 	<value condition="!Skin.HasSetting(EnableShowCaseOverlay)">$PARAM[movement]</value>
     </variable>
     <variable name="OSD_Info_Label">
-        <value condition="Control.HasFocus(18)">Subtitles</value>
-        <value condition="Control.HasFocus(32)">Extended Info</value>
-        <value condition="Control.HasFocus(25)">Settings</value>
-        <value condition="Control.HasFocus(25)">More Info</value>
-        <value condition="Control.HasFocus(34)">Cast</value>
+        <value condition="Control.HasFocus(18)">$LOCALIZE[287]</value> <!-- Subtitles -->
+        <value condition="Control.HasFocus(32)">$LOCALIZE[31086]</value> <!-- Extended Info -->
+        <value condition="Control.HasFocus(25)">$LOCALIZE[31736]</value> <!-- Settings -->
+        <value condition="Control.HasFocus(25)">$LOCALIZE[31715]</value> <!-- More Info -->
+        <value condition="Control.HasFocus(34)">$LOCALIZE[31695]</value> <!-- Cast -->
     </variable>
     <variable name="Info_Cast_List01">
         <value condition="!Container(3100).IsUpdating + Integer.IsGreater(Container(3100).NumItems,0)">$INFO[Container(3100).ListItemAbsolute(1).FolderPath]</value>
