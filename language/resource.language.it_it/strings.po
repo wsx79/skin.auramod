@@ -1322,7 +1322,7 @@ msgstr "di"
 
 msgctxt "#31282"
 msgid "on"
-msgstr ""
+msgstr "su"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31283"
@@ -3593,7 +3593,7 @@ msgstr "Canale"
 #: /1080i/Includes_View_List.xml
 msgctxt "#31745"
 msgid "Now"
-msgstr "Adesso"
+msgstr "adesso"
 
 #: /1080i/Includes_View_List.xml
 msgctxt "#31746"
@@ -3613,7 +3613,7 @@ msgstr "Finisce"
 #: /1080i/Includes_WidgetMods.xml
 msgctxt "#31749"
 msgid "Watch"
-msgstr "Visto"
+msgstr "Guarda"
 
 #: /1080i/Includes_WidgetMods.xml
 msgctxt "#31750"
